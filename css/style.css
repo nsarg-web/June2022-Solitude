@@ -79,12 +79,16 @@ html,
 body {
   height: 100%;
 }
+/* Scout Brand Color Green and Purple KR 16/06/2022*/
 Purple {
   color: #7413dc;
 }
 .Purple {
   color: #7413dc;
+
 }
+.green{color: #16a085;}
+green {color: #16a085;}
 body {
   font-family: "NunitoSans-Regular";
   font-weight: 300;
@@ -257,14 +261,14 @@ a img {
 }
 
 /* Titles */
-
+/*Updated to use NunitoSans KR 16/06/2022*/
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans";
+  font-family: "NunitoSans-Regular";
   font-weight: 700;
   color: #333;
 }
@@ -399,7 +403,7 @@ a:after {
   letter-spacing: 8px;
   font-size: 100px;
   font-weight: bold;
-  text-shadow: 5px 5px 5px 5px #ffffff;
+  text-shadow: 5px 5px 5px #ffffff;
 }
 
 #headerwrap p {
@@ -543,7 +547,8 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider2 {
-  background-image: url("../images/bg2.jpg");
+  background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
+ /* background-image: url("../images/bg2.jpg");*/
 }
 
 .divider3 {
