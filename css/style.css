@@ -80,15 +80,12 @@ body {
   height: 100%;
 }
 /* Scout Brand Color Green and Purple KR 16/06/2022*/
-Purple {
-  color: #7413dc;
-}
-.Purple {
-  color: #7413dc;
+Purple {color: #7413dc;}
+.Purple {color: #7413dc;}
 
-}
-.green{color: #16a085;}
-green {color: #16a085;}
+.Green {color: #16a085;}
+Green {color: #16a085;}
+
 body {
   font-family: "NunitoSans-Regular";
   font-weight: 300;
@@ -270,8 +267,13 @@ h5,
 h6 {
   font-family: "NunitoSans-Regular";
   font-weight: 700;
-  color: #333;
+  color: #16a085;;
 }
+h2 g
+{
+  font-family: "NunitoSans-Regular";
+  font-weight: 700;
+  color: #16a085;}
 
 /* Paragraph & Typographic */
 
