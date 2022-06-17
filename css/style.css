@@ -80,11 +80,11 @@ body {
   height: 100%;
 }
 /* Scout Brand Color Green and Purple KR 16/06/2022*/
-Purple {color: #7413dc;}
+
 .Purple {color: #7413dc;}
 
 .Green {color: #16a085;}
-Green {color: #16a085;}
+
 
 body {
   font-family: "NunitoSans-Regular";
@@ -134,18 +134,19 @@ body {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
+/*This block Is the control size and colour displayed in the Header, Links etc  KR 17/06/2022 */
 .navbar-default.opaqued .navbar-nav > li > a,
 .navbar-default.opaqued .navbar-brand h1,
 .navbar-default.opaqued .navbar-brand {
-  color: #ffffff;
+  line-height: 25px;
+  color:#7413dc;
   background: transparent;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  font-size: 16px;
+  font-size: 21px;
 }
 
 .navbar-default.opaqued h1 {
@@ -215,11 +216,12 @@ body {
 }
 
 .navbar-nav > li > a {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 40px;
+  padding-bottom: 35px;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+  button
 }
 
 .navbar-nav > li > a:after {
@@ -229,10 +231,8 @@ body {
   position: absolute;
   border-bottom: none;
   margin: 0 auto;
-  left: 50%;
-  margin-left: -17px;
+  left: 50%;}
   top: 55px;
-}
 
 hr {
   position: relative;
@@ -269,11 +269,6 @@ h6 {
   font-weight: 700;
   color: #16a085;;
 }
-h2 g
-{
-  font-family: "NunitoSans-Regular";
-  font-weight: 700;
-  color: #16a085;}
 
 /* Paragraph & Typographic */
 
@@ -891,10 +886,10 @@ a:after {
 /* ==========================================================================
   Portfolio Carousel
    ========================================================================== */
-
+/*
 #portfolio-carousel {
 }
-
+*/
 #portfolio-carousel .col-md-4 {
   width: 100%;
 }
@@ -1230,7 +1225,9 @@ span.counter {
 
 .backstretch:before {
   content: "";
-  background-image: url("/Images/picture/");
+  background-image: url("/Images/picture/Jota_Antennas_Royal.jpg");
+  width: fit-content;
+  height: fit-content;
   min-width: 100%;
   height: 100%;
   position: absolute;
