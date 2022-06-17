@@ -231,10 +231,8 @@ body {
   position: absolute;
   border-bottom: none;
   margin: 0 auto;
-  left: 50%;
-  margin-left: -17px;
+  left: 50%;}
   top: 55px;
-}
 
 hr {
   position: relative;
@@ -888,10 +886,10 @@ a:after {
 /* ==========================================================================
   Portfolio Carousel
    ========================================================================== */
-
+/*
 #portfolio-carousel {
 }
-
+*/
 #portfolio-carousel .col-md-4 {
   width: 100%;
 }
