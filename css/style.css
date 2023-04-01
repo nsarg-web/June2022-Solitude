@@ -79,11 +79,11 @@ html,
 body {
   height: 100%;
 }
-/* Scout Brand Color Green and Purple KR 16/06/2022*/
+/* Scout Brand Color Green and 
+ KR 16/06/2022*/
+ .purple {color: #7413dc;}
 
-.Purple {color: #7413dc;}
-
-.Green {color: #16a085;}
+.green {color: #16a085;}
 
 
 body {
@@ -542,7 +542,7 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider2 {
-  background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
+  background-image: url("/images/picture/Jacob_Tuning_radio.jpg");
  /* background-image: url("../images/bg2.jpg");*/
 }
 
@@ -556,7 +556,7 @@ a:after {
 }
 
 .divider6 {
-  background-image: url("../images/bg5.jpg");
+  background-image: url("../images/picture/beavers14.jpg");
 }
 
 .section {
