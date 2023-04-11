@@ -466,7 +466,7 @@ a:after {
 }
 
 .homebtn {
-  border: 3px solid #fff;
+  border: 3px solid #bd2626;
   color: #fff;
   border-radius: 0;
   padding: 15px 20px;
@@ -477,7 +477,7 @@ a:after {
 
 .homebtn:hover {
   border: 3px solid #fff;
-  background-color: #fff;
+  background-color: #f17b7b;
   color: #222;
 }
 
