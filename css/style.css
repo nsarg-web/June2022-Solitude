@@ -542,7 +542,7 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider2 {
-  background-image: url("/images/picture/Jacob_Tuning_radio.jpg");
+  background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
  /* background-image: url("../images/bg2.jpg");*/
 }
 
@@ -552,11 +552,11 @@ a:after {
 }
 
 .divider4 {
-  background-image: url("/Images/picture/shack2.jpg");
+  background-image: url("/images/picture/shack2.jpg");
 }
 
 .divider6 {
-  background-image: url("/Images/picture/beavers14.jpg");
+  background-image: url("/images/picture/beavers14.jpg");
 }
 
 .section {
