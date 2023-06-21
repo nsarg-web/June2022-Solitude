@@ -547,16 +547,16 @@ a:after {
 }
 
 .divider3 {
-  background-image: url("/images/picture/jota2022/80_40_station.jpg");
+  background-image: url("/Images/picture/jota2022/80_40_station.jpg");
   margin-top: 0px;
 }
 
 .divider4 {
-  background-image: url("/images/picture/shack2.jpg");
+  background-image: url("/Images/picture/shack2.jpg");
 }
 
 .divider6 {
-  background-image: url("/images/picture/beavers14.jpg");
+  background-image: url("/Images/picture/beavers14.jpg");
 }
 
 .section {
@@ -1223,7 +1223,7 @@ span.counter {
 
 .backstretch:before {
   content: "";
-  background-image: url("/images/picture/Jota_Antennas_Royal.jpg");
+  background-image: url("/Images/picture/Jota_Antennas_Royal.jpg");
   width: fit-content;
   height: fit-content;
   min-width: 100%;
