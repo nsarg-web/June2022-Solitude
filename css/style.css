@@ -547,7 +547,7 @@ a:after {
 }
 
 .divider3 {
-  background-image: url("/Images/picture/radio_station.jpg");
+  background-image: url("/images/picture/jota2022/80_40_station.jpg");
   margin-top: 0px;
 }
 
@@ -1668,7 +1668,7 @@ span.counter {
   color: #fff;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   /*IE7 life-saver */
   margin: 5px;
   padding: 10px;
@@ -1694,7 +1694,7 @@ span.counter {
 .owl-theme .owl-controls .owl-page {
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   /*IE7 life-saver */
 }
 
