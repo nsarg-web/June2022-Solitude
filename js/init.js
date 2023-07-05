@@ -23,8 +23,8 @@ var windowsHeight = $(window).height();
   $('#headerwrap').css('height', windowsHeight + 'px');
 
   $('#headerwrap').backstretch([
-        "images/bg1.jpg"
-      , "images/bg2.jpg"
+        "i"
+      , "/Images/picture/jota2022/jota2022_greetings.jpg"
       , "images/bg3.jpg"
     ], {duration: 3000, fade: 750});
 

@@ -541,9 +541,9 @@ a:after {
 
 /* Section Dividers Backgrounds */
 
-.divider2 {
-  background-image: url("/Solitude/Index.html");
- /* background-image: url("../images/bg2.jpg");*/
+.divider2 {background-image: url(/Images/picture/beavers14.jpg);
+  /*background-image: url("/Solitude/Index.html");
+ /* background-image: url("../images/p.jpg");*/
 }
 
 .divider3 {
