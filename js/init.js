@@ -25,7 +25,7 @@ var windowsHeight = $(window).height();
   $('#headerwrap').backstretch([
         "images/bg1.jpg"
       , "images/bg2.jpg"
-      , "images/bg3.jpg"
+      , "/Images/pictures/jota/jota2019/2019_10_200753.JPG"
     ], {duration: 3000, fade: 750});
 
 jQuery(document).ready(function(){
