@@ -23,7 +23,7 @@ var windowsHeight = $(window).height();
   $('#headerwrap').css('height', windowsHeight + 'px');
 
   $('#headerwrap').backstretch([
-        "images/bg1.jpg"
+        "/Images/pivtures/Jacb_tuning_radio.jpg"
       , "images/bg2.jpg"
       , "/Images/pictures/jota/jota2019/2019_10_200753.JPG"
     ], {duration: 3000, fade: 750});

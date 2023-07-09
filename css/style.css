@@ -1220,7 +1220,7 @@ span.counter {
 
 .backstretch:before {
   content: "";
-  background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
+  background-image: url("/solitude/Images/picture/Jacob_Tuning_radio.jpg");
   width: fit-content;
   height: fit-content;
   min-width: 100%;
