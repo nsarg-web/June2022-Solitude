@@ -541,7 +541,7 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider2 {
-background-image: url("/Images/picture/jota/Jota_Antennas_Royal.jpg");
+background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
  }
 
 .divider3 {
@@ -555,6 +555,7 @@ margin-top: 0px}
 .divider6 {
   background-image: url("/Images/picture/beavers14.jpg");
 }
+.divider7 {background-image: url("/Images/picture/Baden_Powell.jpg" width="500" height="700");}
 
 .section {
   padding-bottom: 60px;
