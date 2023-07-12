@@ -10,20 +10,15 @@
 
     <title>NSARG</title>
     <!-- The p (paragraph) is used the css control
-    is located in the style.css file
-    p {
-  line-height: 28px;
-  margin-bottom: 25px;
-  font-size: small;
-}
-  -->
+    is located in the style.css file-->
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/elusive-webfont.css" />
+    <link href="css/nav_bar_styleing.css"rel="stylesheet"/>
+    <link href="css/elusive-webfont.css"rel="stylesheet"/>
     <link href="css/animate.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
@@ -31,39 +26,48 @@
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
   </head>
 
-  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
-    <div id="navbar-main">
-      <!-- Fixed navbar -->
-      <div class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button
-              type="button"
-              class="navbar-toggle"
-              data-toggle="collapse"
-              data-target=".navbar-collapse"
-            >
-              <i class="el-icon-lines"></i>
-            </button>
-            <a class="navbar-brand hidden-xs hidden-sm purple" href="#">
-              <h1>G6NDS Northampton Scout Amateur Radio Group GB4NDS</h1>
-            </a>
-          </div>
-          
-    <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav purple">
-              <li><a href="#home" class="smoothScroll">Home</a></li>
-             <!--  <li><a href="#Souvenirs" class="smoothScroll">Souvenirs</a></li>
-              <li><a href="#resources" class="smoothScroll">Resources</a></li>
-              <li><a href="#Team" class="smoothScroll">Team </a></li> -->
-            <li><a href="/noaa/" class="smoothScroll">NOAA Weather Images</a></li>
-            <!--  <li><a href="#news" class="smoothScroll">News</a></li>
-            <li><a href="contact" class="smoothScroll">Contact</a></li> -->
-            </ul>
-          </div>
-           </div> 
-      </div>
-    </div>
+<body>
+            
+            <div class="navbar">
+              <a href="#home"></a>
+              <a href="/Noaa">NOAA Images</a>
+              <div class="dropdown">
+                <button class="dropbtn">Resources 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <div class="header">
+                    <h2>Badge Requirements</h2>
+                  </div>   
+                  <div class="row">
+                    <div class="column">
+                      <h3>Beavers</h3>
+                      <a href="#">Communicator</a>
+                      <a href="#">Experimenters</a>
+                      <a href="#"></a>
+                    </div>
+                    <div class="column">
+                      <h3>Cubs</h3>
+                      <a href="#">Communicator</a>
+                      <a href="#"></a>
+                      <a href="#"></a>
+                    </div>
+                    <div class="column">
+                      <h3>Scouts</h3>
+                      <a href="#">Communicator</a>
+                      <a href="#">Electronics</a>
+                      <a href="#"></a>
+                    </div>
+                    <div class="column">
+                      <h3>Explorer</h3>
+                      <a href="#">Science and technology</a>
+                      <a href="#"></a>
+                      <a href="#"></a>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
     <!-- ==== HEADERWRAP ==== -->
     <div id="headerwrap" id="home" name="home">
       <header class="clearfix">
@@ -72,12 +76,13 @@
         </h1>
      
   <div>
-    <section class="section-divider textdivider divider7"></section>
+    <section class="section-divider textdivider divider1"></section>
         <p class="animated slideInLeft green">Be Prepared</p>
         <p class="small animated slideInRight green">
           In Scouting for Boys, Baden-Powell wrote that<br> Be Prepared means
           <q>You are always in a state of readiness in mind and body to do your
           duty.</q>
+          <br>
           </p>
   </div>
         </p>
@@ -89,6 +94,9 @@
     <!-- /headerwrap -->
 
     <!--  SERVICES -->
+    <br>
+    <br>
+    <br>
     <div class="greywrap">
       <div class="container" id="about" name="about">
         <div class="row">
@@ -713,7 +721,7 @@ The only trouble was we had to dismantle it, move it from the other side of town
     <!-- /container -->
 
     <!-- ==== SECTION Station Location ==== -->
-    <section class="section-divider6 textdivider6">
+    <section class="section-divider4 textdivider4">
       <div class="container" id="location" name="location">
         <div class="row white">
           <h1 class="fade-down">NSARG - Station location.</h1>
