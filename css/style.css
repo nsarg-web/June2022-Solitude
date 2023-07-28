@@ -555,7 +555,7 @@ margin-top: 0px}
 .divider6 {
   background-image: url("/Images/picture/beavers14.jpg");
 }
-.divider7 {background-image: url("/Images/picture/Baden_Powell.jpg" width="500" height="700");}
+.divider7 {background-image: url"/Images/picture/Baden_Powell.jpg" width="500" height="700";}
 
 .section {
   padding-bottom: 60px;
