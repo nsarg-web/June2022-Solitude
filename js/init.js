@@ -23,9 +23,8 @@ var windowsHeight = $(window).height();
   $('#headerwrap').css('height', windowsHeight + 'px');
 
   $('#headerwrap').backstretch([
-        "i"
-      , "/Images/picture/jota2022/jota2022_greetings.jpg"
-      , "images/bg3.jpg"
+      , "/Images/picture/jota2022/vhf_uhf_antenna.jpg"
+      , "images//picture/jota2022/jota2022_greetings.jpg"
     ], {duration: 3000, fade: 750});
 
 jQuery(document).ready(function(){

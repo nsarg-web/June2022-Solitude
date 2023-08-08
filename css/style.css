@@ -265,7 +265,7 @@ h5,
 h6 {
   font-family: "NunitoSans-Regular";
   font-weight: 700;
-  color: #16a085;
+  /*color: #16a085; This was setting the colour on all H 08/08/23*/
   }
 
 /* Paragraph & Typographic */
@@ -541,16 +541,17 @@ a:after {
 
 /* Section Dividers Backgrounds */
 
-.divider2 {background-image: url(/Images/picture/beavers14.jpg);
-  /*background-image: url("/Solitude/Index.html");
- /* background-image: url("../images/p.jpg");*/
-}
-
-.divider3 {
-  background-image: url("/solitude/Images/picture/jota2022/80_40_station.jpg");
+..divider2 {
+  background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
+  background-size: 100px 200px;
   margin-top: 0px;
 }
 
+.divider3 {
+ /* background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
+  background-size: 100px 200px;
+  margin-top: 0px;*/
+}
 .divider4 {
   background-image: url("/solitude/Images/picture/shack2.jpg");
 }
