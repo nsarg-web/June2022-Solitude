@@ -543,7 +543,7 @@ a:after {
 
 ..divider2 {
   background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
-  background-size: 100px 200px;
+  background-repeat: inherit;
   margin-top: 0px;
 }
 
