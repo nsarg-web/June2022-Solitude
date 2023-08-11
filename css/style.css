@@ -541,16 +541,16 @@ a:after {
 
 /* Section Dividers Backgrounds */
 
-..divider2 {
+.divider2 {
   background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
-  background-repeat: inherit;
+
   margin-top: 0px;
 }
 
 .divider3 {
- /* background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
-  background-size: 100px 200px;
-  margin-top: 0px;*/
+  background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
+  
+  margin-top: 0px;
 }
 .divider4 {
   background-image: url("/solitude/Images/picture/shack2.jpg");
@@ -1272,7 +1272,6 @@ span.counter {
   display: none;
   position: relative;
   width: 100%;
-  -ms-touch-action: pan-y;
 }
 
 .owl-carousel .owl-wrapper {
