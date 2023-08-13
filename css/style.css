@@ -542,22 +542,22 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider2 {
-  background-image: url("/Images/picture/Jacob_Tuning_radio.jpg");
+  background-image: url("Images/picture/Jacob_Tuning_radio.jpg");
 
   margin-top: 0px;
 }
 
 .divider3 {
-  background-image: url("/Images/picture/jota/Jota_Antennas_Royal.jpg");
+  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");
   
   margin-top: 0px;
 }
 .divider4 {
-  background-image: url("/solitude/Images/picture/shack2.jpg");
+  background-image: url("Images/picture/shack2.jpg");
 }
 
 .divider6 {
-  background-image: url("solitude/Images/picture/beavers14.jpg");
+  background-image: url("Images/picture/beavers14.jpg");
 }
 
 .section {
