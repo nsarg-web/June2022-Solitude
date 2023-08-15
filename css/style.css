@@ -139,7 +139,7 @@ body {
 .navbar-default.opaqued .navbar-brand h1,
 .navbar-default.opaqued .navbar-brand {
   line-height: 25px;
-  color:#7413dc;
+  color:
   background: transparent;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -530,28 +530,27 @@ a:after {
 
 .textdivider h1 {
   padding-top: 70px;
-  color: white;
-  font-size: 40px;
+  color: rgb(197, 20, 20); /* the colour was white */
 }
 
 .textdivider p {
-  color: white;
+  /* was color: white;*/
   font-size: 25px;
 }
 
 /* Section Dividers Backgrounds */
 
 .divider2 {
-  background-image: url("Images/picture/Jacob_Tuning_radio.jpg");
-
+  background-image: url("Images/picture/Jacob_Tuning_radio");
   margin-top: 0px;
 }
 
 .divider3 {
-  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");
-  
+  /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
+  background-image: url("Images/picture/Jacob_Tuning_radio.jpg"); /* Added .jpg extension */
   margin-top: 0px;
 }
+
 .divider4 {
   background-image: url("Images/picture/shack2.jpg");
 }
