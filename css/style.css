@@ -628,6 +628,9 @@ a:after {
 }
 
 .service-icon-wrapper {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
   background-color: #2980b9;
   border-radius: 0%;
   margin: 0 auto;
@@ -1210,6 +1213,19 @@ span.counter {
 }
 
 /* image load animations */
+
+/* Added these classes */
+/* CSS for adding background image to specified elements */
+.animated.slideInLeft.green,
+.animated.slideInRight.purple {
+  background-image: url("Images/picture/Baden_Powell.jpg");
+  background-size: cover; /* Adjust as needed */
+  background-position: center center; /* Adjust as needed */
+  background-repeat: no-repeat;
+  padding: 20px; /* Add some padding to ensure text is readable */
+  color: white; /* Set text color for better visibility */
+}
+
 
 .no-display {
   opacity: 0;
