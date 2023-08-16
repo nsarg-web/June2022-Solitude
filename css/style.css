@@ -541,13 +541,13 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider2 {
-  background-image: url("Images/picture/Jacob_Tuning_radio.jpg");
+  background-image: url("Images/picture/Jacob_Tuning_radio.jpg" );
   margin-top: 0px;
 }
 
 .divider3 {
   /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/Jacob_Tuning_radio.jpg"); /* Added .jpg extension */
+  background-image: url("Images/picture/Jacob_Tuning_radio.jpg" width="500" height="900"); 
   margin-top: 0px;
 }
 
