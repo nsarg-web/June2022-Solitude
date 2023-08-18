@@ -10,6 +10,38 @@
   font-family: "NunitoSans-Regular";
   src: url(/fonts/nunitofont/NunitoSans-Regular.ttf);
 }
+/*  In this example, the text-shadow property takes four values:
+
+The horizontal offset (positive value moves the shadow to the right, negative value to the left).
+The vertical offset (positive value moves the shadow down, negative value up).
+The blur radius (higher value creates a more spread out shadow).
+The color of the shadow (using RGBA notation where the last value is the opacity).
+You can adjust these values to achieve the shadow effect you prefer. The example above applies a slightly blurred and slightly transparent shadow with a black color.*/
+
+.with-shadow {
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+}
+
+/* Create Five equal columns that floats next to each other */
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
 
 html,
 button,
@@ -18,10 +50,31 @@ select,
 textarea {
   color: #222;
 }
-
 body {
+  margin: 0;
+}
+body {
+  margin: 0;
   font-size: 1em;
   line-height: 1.4;
+}
+.navbar {
+  overflow: hidden;
+  background-color: YELLOW;
+ /* font-family: Arial, Helvetica, sans-serif; */
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+* {
+  box-sizing: border-box;
 }
 
 /*
@@ -134,13 +187,13 @@ body {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+body style="background-color:white;">
 /*This block Is the control size and colour displayed in the Header, Links etc  KR 17/06/2022 */
 .navbar-default.opaqued .navbar-nav > li > a,
 .navbar-default.opaqued .navbar-brand h1,
 .navbar-default.opaqued .navbar-brand {
   line-height: 25px;
-  color:
-  background: transparent;
+  color: transparent;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -429,6 +482,11 @@ a:after {
   line-height: 30px;
   margin-bottom: 10px;
 }
+
+.gap {
+  margin-top: 40px; /* Adjust the value as needed */
+}
+
 
 #footerwrap {
   background: #202020;
@@ -1188,10 +1246,68 @@ span.counter {
    MEDIA QUERIES
    ========================================================================== */
 
-@media screen and (max-width: 1050px), screen and (max-device-width: 1050px) {
+@@media screen and (max-width: 1050px), screen and (max-device-width: 1050px) {
   body .header {
     background-attachment: scroll;
   }
+  
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+/* Style the dropdown button */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Change background color on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Display the dropdown content when hovering over the dropdown button */
+.dropdown:hover {
+  display: block;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background: red;
+  padding: 12px 16px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 /*ipad portrait*/
