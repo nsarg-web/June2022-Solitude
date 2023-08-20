@@ -588,8 +588,7 @@ a:after {
 
 .textdivider h1 {
   padding-top: 70px;
-  color: rgb(197, 20, 20); /* the colour was white */
-}
+  color: #16a085;} /* the colour was white green {color: #16a085;} */
 
 .textdivider p {
   /* was color: white;*/
@@ -1332,17 +1331,18 @@ span.counter {
 
 /* Added these classes */
 /* CSS for adding background image to specified elements */
-.animated.slideInLeft.green,
-.animated.slideInRight.purple {
+.animated.slideInLeft,
+.animated.slideInRight {
+  position: relative;
   background-image: url("Images/picture/Baden_Powell.jpg");
-  background-size: cover; /* Adjust as needed */
-  background-position: center center; /* Adjust as needed */
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  padding: 20px; /* Add some padding to ensure text is readable */
-  color: white; /* Set text color for better visibility */
+  padding: 20px;
 }
-
-
+.text-white {
+  color: white;
+}
 .no-display {
   opacity: 0;
 }
