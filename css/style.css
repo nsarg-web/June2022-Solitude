@@ -4,8 +4,11 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-/* Adding Nunito-Regular Font KR 14/06/2022  */
+/* Style the dropdown button */
 
+
+/* Adding Nunito-Regular Font KR 14/06/2022  */
+ 
 @font-face {
   font-family: "NunitoSans-Regular";
   src: url(/fonts/nunitofont/NunitoSans-Regular.ttf);
@@ -60,7 +63,7 @@ body {
 }
 .navbar {
   overflow: hidden;
-  background-color: YELLOW;
+  background-color: rgb(44, 172, 65);
  /* font-family: Arial, Helvetica, sans-serif; */
 }
 .navbar a {
@@ -70,11 +73,6 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-
-* {
-  box-sizing: border-box;
 }
 
 /*
@@ -187,7 +185,6 @@ body {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-body style="background-color:white;">
 /*This block Is the control size and colour displayed in the Header, Links etc  KR 17/06/2022 */
 .navbar-default.opaqued .navbar-nav > li > a,
 .navbar-default.opaqued .navbar-brand h1,
@@ -1245,7 +1242,7 @@ span.counter {
    MEDIA QUERIES
    ========================================================================== */
 
-@@media screen and (max-width: 1050px), screen and (max-device-width: 1050px) {
+@media screen and (max-width: 1050px), screen and (max-device-width: 1050px) {
   body .header {
     background-attachment: scroll;
   }
@@ -1264,8 +1261,8 @@ span.counter {
   overflow: hidden;
 }
 
-/* Change background color on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+/* Change background color on hover .dropbtn*/
+.navbar a:hover, .dropdown:hover {
   background-color: red;
 }
 
@@ -1278,17 +1275,17 @@ span.counter {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   font: inherit;
   margin: 0;
 }
-
+/*background-color: #f9f9f9; 21/08/2023 */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #da1616;
   width: 100%;
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);

@@ -1,0 +1,10 @@
+To track changes and updates we use the JIRA application
+Changes will appear with the newest at the top.
+There are many additions to be added. We currently have 8 open tickets.
+Please let us know if you find any errors or problems with the details displayed.
+
+
+
+
+V1.0 21/08/2023
+Northampton Scout Amateur Radio site Published.
