@@ -590,9 +590,9 @@ a:after {
   text-align: center;
 }
 
-.textdivider h1 {
+.textdivider-h1 {
   padding-top: 70px;
-  color: #16a085;} /* the colour was white green {color: #16a085;} */
+  color: #16a085;} /* Controls the color of the text that is displayed over the image of Jacob tuning the Radio NSW-27 */
 
 .textdivider p {
   /* was color: white;*/

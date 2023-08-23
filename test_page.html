@@ -4,6 +4,7 @@
     <!-- Published 20/08/2023 V1.01 Resolved NSW-27, NSW-3-, NSW-32-->
     <!-- Published 22/08/2023 V1.0.02  More work on the Nav Bar,News an activites Tidied.-->
     <!-- Published 23/08/2023 V1.0.03 Corrected the line indents to make it easier to follow-->
+    <!-- Published 23/08/2023 V1.0.04 Reset the Font styles, Fixed NSW-27 Colour of text green, Fixed the View Calendar button -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Radio Scouting NSARG JOTA JOTI GB4NDS G6NDS Amateur radio Northampton scout Amateur  daily NOAA images">
@@ -27,9 +28,8 @@
   <body>
     <div class="navbar navbar-btn">
       <a href="#home">
-
       </a>
-      <a href="/noaa/" class="smoothScroll">NOAA Weather Images
+      <a href="solitude/noaa/" class="smoothScroll">NOAA Weather Images
 
       </a>
       <div class="dropdown">
@@ -84,7 +84,7 @@
 <!-- ==== SITE TITLE ==== -->
 <div id="headerwrap">
   <header class="clearfix">
-    <h1 class="animated bounceIn">Northampton Scout Amateur Radio Group
+    <h1 class="animated bounceIn with-shadow">Northampton Scout Amateur Radio Group
     </h1>
     <h4>This site is still under development. It is a learn as you go project,<br> 
       As any project, it is taking a lot longer than expected. The last updated date is displayed in the footer of the page.
@@ -116,7 +116,7 @@
             </a>
         
           <div class="gap blog-bg h4">
-            <h4>Click the View Calendar to see Meeting dates and other group activities</h4>
+            <h3>Click the View Calendar to see Meeting dates and other group activities</h3>
           </div>
         </div>
         
@@ -145,9 +145,9 @@
           <h2 class="purple text-center">66th Jamboree on the Air -
             66 years connecting Scouts!
            </h2>
-          <h3 class="purple text-center">20th - 22nd
-            <br> October 2023 
-          </h3>
+          <h4 class="text-center">20th - 22nd
+            October 2023 
+          </h4>
           <h4 class="purple">
             - The station this year will be located in
             Knight's Lodge at Overstoine Scout Activity Centre. We have an
@@ -188,7 +188,7 @@
           <!-- Content for the third column -->
           <h2 class="purple text-center">Having fun at JOTA 2022
            </h2>
-          <h5 class="purple">
+          <h4 class="purple">
             Another great weekend was had at Overstone Scout Ground for the 65th Jamboree on the air. Scouts from across Northamptonshire gathered to camp and undertake a weekend of activities alongside a fully operational Amateur radio Station working on HF (Cobweb, G5RV and Longwire Antenna) VHF / UHF (Co-Linear and Discone) and Satellites (QFH Antenna) as well as Skype allowing contacts around the world and locally. Using SSB, Morse, FT8 and Digital modes.
             A highlight of the weekend was being able to work the GB100BBC special event station to commemorate 100 years of the BBC. Scouts were able to practice their French, German and Spanish as they had their first taste of the hobby.
             We are very grateful to our friends at <a href="https://www.amphenol.com/" class="btn btn-success">amphenol</a> for their continued support and sponsorship with the event.
@@ -210,7 +210,7 @@
   <h1 class="green text-center">Who we are
   </h1>
   <div class="fade-up col-md-6">
-    <h4 class="purple">
+    <h4 class="purple"><br>
    The Northampton Scout Amateur Radio Group had its first meeting in 1981 and spent the first few years visiting local Scout Troops and running Scout Communicator badge courses 
    from a local School where the caretaker was a very active short wave listener.
 <br>
@@ -225,13 +225,13 @@ The only trouble was we had to dismantle it, move it from the other side of town
   <!-- col-md-6 -->
   <div class="fade-up col-md-6">
     <p>
-      <img class="img team-image image-res" src="Images/picture/shack2.jpg" alt="80/40 Meters Station 2022">
+      <img class="img team-image image-res" src="Images/picture/shack2.jpg" width="500" height="700" alt="Old radio station ">
     </p>
   </div> 
 </div> 
 <!--END SECTION BADGE REQUIREMENTS-->
-<!-- ==== SECTION DIVIDER2   See NSW-21=7 for details on how to set the colour of the text --> 
-<section class="section-divider textdivider divider2">
+<!-- ==== SECTION DIVIDER2   See NSW-27 for details on how to set the colour of the text --> 
+<section class="section-divider textdivider-h1 divider2">
   <div class="container">
     <h2 class="fade-down">Using a band guide helps new listeners find and understand the various modes of transmission used in amateur Radio
     </h2>
@@ -461,33 +461,34 @@ The only trouble was we had to dismantle it, move it from the other side of town
    <!-- Content for the left column goes here -->
 <div class="column">
     <h2 class="slideInLeft green">GB4NDS</h2>
-            <h4> During our monthly meetings in 2023 The station will be operating using a Special Event callsign GB4NDS.</h4>
+            <blog-bg h4> During our monthly meetings in 2023 The station will be operating using a Special Event callsign GB4NDS.</blog-bg>
             <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
           </div>
           <!-- Content for the Right column goes here -->
           <div class="column">
           <h2 class="slideInLeft green">Congratulations</h2>
-            <h4> During Covid members of the group completed the Essex Ham Online Foundation Course and passed.<br>
+            <blog-bg h4> During Covid members of the group completed the Essex Ham Online Foundation Course and passed.<br>
               Rob M7RNM<br>
               James M7HJT<br>
               Jacob M7***<br>
-            </h4>
+              Alex   M7***
+            </blog-bg h4>
               <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
           </div>          
            <!-- Content for the left column goes here -->
           <div class="column">
-           <h2 class="slideInLeft green">DMR Talkgroup</h2>
-              <h4 class="blog-bg h4">If you have access to DMR TGIF Network
+           <h2 class="slideInLeft purple">DMR Talkgroup</h2>
+              <blog-bg h4> If you have access to DMR TGIF Network.
                 Please feel free to join us on 36222
-              </h4>
-              <img class="img fade-down" src="Images/neckieb.gif" alt="necker"></h4>
+              </blog-bg h4>
+              <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
           </div>  
           <div class="column">
-            <h2 class="slideInLeft green">JOTA 2022 Introduction</h2>
-              <h4> All Scouts that visited were given a brief introduction, before splitting into small groups. In the smaller groups, they 
+            <h2 class="slideInLeft purple">JOTA 2022 Introduction</h2>
+              <blog-bg h4> All Scouts that visited were given a brief introduction, before splitting into small groups. In the smaller groups, they 
                 visited each of the different activities. 40/80 Meters station. 10, 15 and 20 Meter SSB and FT8 finally our two-meter station where they could pass greetings messages
-                <img class="img fade-down" src="Images/picture/jota/jota2022/intro.jpg" alt="Jota 2022 intro">
-                <img class="img fade-down" src="Images/neckieb.gif" alt="necker"></h4>
+                <img class="img fade-down" src="Images/picture/jota/jota2022/intro.jpg" alt="Jota 2022 intro"><br>
+                <img class="img fade-down" src="Images/neckieb.gif" alt="necker"></blog-bg h4>
             </div>         
            <!-- Left Colum-->
            <div class="column">
@@ -506,8 +507,8 @@ The only trouble was we had to dismantle it, move it from the other side of town
    <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>0Donations</h1>
-            <h4>
+            <h1>Donations</h1>
+            <h4 blog-bg>
                 Many thanks to Ron Pass.
                 Ron has recently donated a TS130 HF Transceiver, an ATU and PowerSupply.
             </h4>
@@ -529,7 +530,7 @@ The only trouble was we had to dismantle it, move it from the other side of town
        <hr>
       <div class="fade-up">
         <h2 class="green text-center">Northampton, England. 60 miles North of London</h2>
-        <p><strong>Location:</strong> IO92nh, WAB Square SP76</p>
+        <p><strong>Location:</strong> IO92NG, WAB Square SP76</p>
     </div>
   </div>
 </div>
@@ -577,7 +578,7 @@ The only trouble was we had to dismantle it, move it from the other side of town
 
         // Update the content of the elements with the formatted date and version number
         lastUpdatedElement.textContent = formattedDate;
-        versionNumberElement.textContent = "1.0.03"; // Change this to your desired version number
+        versionNumberElement.textContent = "1.0.04"; // Change this to your desired version number
     });
 </script>
 
