@@ -1,11 +1,3 @@
-/*
-	Solitude by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/* Style the dropdown button */
-
 
 /* Adding Nunito-Regular Font KR 14/06/2022  */
  
@@ -22,7 +14,7 @@ The color of the shadow (using RGBA notation where the last value is the opacity
 You can adjust these values to achieve the shadow effect you prefer. The example above applies a slightly blurred and slightly transparent shadow with a black color.*/
 
 .with-shadow {
-  text-shadow: 2px 2px  rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+  text-shadow: 21px 20px  rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
 }
 
 /* Create Five equal columns that floats next to each other */
@@ -61,6 +53,10 @@ body {
   font-size: 1em;
   line-height: 1.4;
 }
+body-nav {
+  background-color: #eee;
+}
+
 .navbar {
   overflow: hidden;
   background-color: rgb(44, 172, 65);
@@ -603,14 +599,55 @@ a:after {
 
 .divider2 {
   background-image: url("Images/picture/Jacob_Tuning_radio.jpg" );
+  margin-top: 0px;}
+
+.divider3 {
+  background-image: url("Images/picture/Jacob_Tuning_radio.jpg");
+  background-size: 200px 100x; /* Set the background size */
   margin-top: 0px;
 }
 
-.divider3 {
-  /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/Jacob_Tuning_radio.jpg" width="500" height="900");
-  margin-top: 0px;
+.divider3 .container {
+  background-color: rgba(255, 255, 255, 0.8); /* Example background color for text container */
+  padding: 20px; /* Example padding for text container */
 }
+
+.divider3 h2 {
+  margin: 0; /* Remove margin for the h2 element */
+}
+
+/* Adjust the following styles as needed */
+.divider3 h2.fade-down {
+  animation: fadeDown 1s ease-in-out; /* Example animation */
+}
+
+.divider3 p.fade-up {
+  animation: fadeUp 1s ease-in-out; /* Example animation */
+}
+
+@keyframes fadeDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
 
 .divider4 {
   background-image: url("Images/picture/shack2.jpg");
@@ -2285,7 +2322,7 @@ img.mfp-img {
             animation: fadeDown 1s ease-in-out;
         }
 
-        @keyframes fadeDown {
+        @keyframes fadeDown {}
             from {
                 opacity: 0;
                 transform: translateY(-20px);
@@ -2391,3 +2428,8 @@ img.mfp-img {
   right: 0;
   padding-top: 0;
 }
+
+  .flag-counter-wrapper {
+    max-width: 300px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center horizontally */
+  }

@@ -1,0 +1,82 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <!-- ... (other navbar contents) ... -->
+    <div class="collapse navbar-collapse" id="main_nav">
+      <ul class="navbar-nav">
+        <!-- ... (other menu items) ... -->
+
+        <!-- Resources -->
+        <li class="nav-item dropdown" id="myDropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">RESOURCES1</a>
+          <ul class="dropdown-menu">
+            <!-- BEAVERS -->
+            <li class="dropdown-submenu">
+              <a class="dropdown-item dropdown-toggle" href="#">BEAVERS</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Communicator</a></li>
+                <li><a class="dropdown-item" href="#">Experimenters</a></li>
+              </ul>
+            </li>
+
+            <!-- CUBS -->
+            <li class="dropdown-submenu">
+              <a class="dropdown-item dropdown-toggle" href="#">Cubs</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Communicator</a></li>
+                <li><a class="dropdown-item" href="#">Experimenters</a></li>
+                <li class="submenu dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Submenu item 3 &raquo;</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                    <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <!-- SCOUTS -->
+            <li class="dropdown-submenu">
+              <a class="dropdown-item dropdown-toggle" href="#">Scouts</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                <li class="submenu dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Submenu item 3 &raquo;</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                    <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <!-- EXPLORERS -->
+            <li class="dropdown-submenu">
+              <a class="dropdown-item dropdown-toggle" href="#">Explorers</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                <li class="submenu dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Submenu item 3 &raquo;</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                    <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                  </ul>
+                </li>
+                <li class="submenu dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Submenu item 4 &raquo;</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                    <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <!-- ... (other menu items) ... -->
+      </ul>
+    </div>
+  </div>
+</nav>
