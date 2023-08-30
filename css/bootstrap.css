@@ -541,10 +541,10 @@ a.bg-success:hover {
   background-color: #c1e2b3;
 }
 .bg-info {
-  background-color: #d9edf7;
+  background-color: cyan;
 }
 a.bg-info:hover {
-  background-color: #afd9ee;
+  background-color:cyan; /*#afd9ee;*/
 }
 .bg-warning {
   background-color: #fcf8e3;
