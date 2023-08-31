@@ -13,7 +13,23 @@
   font-family: "NunitoSans-Regular";
   src: url(/fonts/nunitofont/NunitoSans-Regular.ttf);
 }
-
+/* 
+++++++++++++++++++++++++++
+++CSS for Bookings Page ++
+++++++++++++++++++++++++++*/
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+  /* Add this CSS in a <style> tag in the <head> section of your HTML or in an external CSS file */
+.form-check-label {
+  margin-left: 5rem; /* Adjust the value as needed */
+}
 
 
 
