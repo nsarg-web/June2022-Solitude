@@ -149,7 +149,6 @@
                               sendButton.addEventListener("click", function () {
                                 // Validate form fields (you can add more validation as needed)
                                 const groupName = document.getElementById("groupName").value;
-                                const groupName = document.getElementById("section").value;
                                 const leadersName = document.getElementById("leadersName").value;
                                 const emailAddress = document.getElementById("emailAddress").value;
                                 const preferredDate = document.getElementById("preferredDate").value;
@@ -164,14 +163,13 @@
                                 const emailBody = `
                                   Group Name: ${groupName}
                                   Leader's Name: ${leadersName}
-                                  Section: ${section}
                                   Contact Email Address: ${emailAddress}
                                   Preferred Date: ${preferredDate}
                                   Preferred Time: ${preferredTime}
                                 `;
                             
                                 // Open the default email client with a pre-filled email
-                                window.location.href = `mailto:bookings@nsarg.co.uk?subject=Booking Request&body=${encodeURIComponent(emailBody)}`;
+                                window.location.href = `mailto:nsarg@nsarg.co.uk?subject=Booking Request&body=${encodeURIComponent(emailBody)}`;
                               });
                             });
                           </script>
