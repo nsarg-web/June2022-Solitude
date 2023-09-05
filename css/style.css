@@ -463,7 +463,7 @@ a:after {
 
 #headerwrap {
   margin-top: 0px;
-  padding-top: 120px;
+  padding-top: 70px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
@@ -634,18 +634,18 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider2 {
-  background-image: url("Images/picture/Jacob_Tuning_radio.jpg" );
+  background-image: url("images/picture/Jacob_Tuning_radio.jpg" );
   margin-top: 0px;
 }
 
 .divider3 {
   /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/Jacob_Tuning_radio.jpg" width="500" height="900");
+  background-image: url("ima" width="500" height="900");
   margin-top: 0px;
 }
 
 .divider4 {
-  background-image: url("Images/picture/shack2.jpg");
+  background-image: url("images/picture/b");
 }
 
 .divider {
@@ -662,7 +662,7 @@ a:after {
 
 .service-info {
   text-align: left;
-  margin-top:  30px;
+  margin-top:  10px;
 }
 
 .service-info h2 {
@@ -778,7 +778,7 @@ a:after {
 }
 
 .team-info h4 {
-  font-size: 22px;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
