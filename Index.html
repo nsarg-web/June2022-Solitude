@@ -66,15 +66,16 @@
 
 <div class="greywrap rw">
 <div class="container" id="about">
-  <div class="row">
+  <div class="row custom-bg">
     <div class="col-md-4 col-sm-4 col-xs-6">
-      <div class="callout">
-        <div class="col-md-9 fade-up service-info">
+        <div class="callout">
+            <div class="col-md-9 fade-up service-info">
           
           <!-- Content for the first column -->
           <h2 class="purple text-center">66th Jamboree on the Air -
             66 years connecting Scouts!
            </h2>
+           <div class="row custom-bg">
           <h4 class="text-center">20th - 22nd
             October 2023 
           </h4>
@@ -91,6 +92,7 @@
           </h4>
             <!--<a class="btn btn-success" href="mailto:nsarg81@outlook.com">JOTA Bookings-->
             </a>
+           </div>
         </div>
       </div>
     </div>
@@ -421,6 +423,7 @@ The only trouble was we had to dismantle it, move it from the other side of town
            <!-- Left Colum-->
            <div class="column">
             <h2 class="slideInLeft green">JOTA 2023</h2>
+            <div class="row custom-bg1"></div>
               <h4> 
                 The station this year will be located in Knight's Lodge at Overstone Scout Activity Centre. We have an exciting programme of Radio Scouting activities at Jamboree On The Air and Jamboree on the Internet this year. This includes a live video feed with other Scouts around the world, receiving images from weather satellites and contacting other Jamboree stations using HF voice communications. Many other aspects of the amazing world of radio communications can be experienced. </h4>
                 
@@ -488,43 +491,24 @@ The only trouble was we had to dismantle it, move it from the other side of town
       </a>
       <h2 class=white>Join our facebook page by clicking the box above
       </h2>
-    
-    
-        <footer>
-          <h2>Site Last Updated: <span id="lastUpdatedDate"></span>
-          </h2>
-      <p>Version: <span id="versionNumber">1.0</span>
-      </p>
-    </i>
-      <script>
+      <footer>
+        <h2>Site Last Updated: <span id="lastUpdatedDate"></span></h2>
+        <p>Version: <span id="versionNumber">1.0</span></p>
+    </footer>    
+    <script>
         document.addEventListener("DOMContentLoaded", function() {
-        // Get the elements where you want to display the last updated date and version number
-        const lastUpdatedElement = document.getElementById("lastUpdatedDate");
-        const versionNumberElement = document.getElementById("versionNumber");
-
-        // Define the current date
-        const currentDate = new Date();
-
-        // Format the date as dd/mm/yyyy
-        const formattedDate = `${currentDate.getDate().toString().padStart(2, "0")}/${(currentDate.getMonth() + 1).toString().padStart(2, "0")}/${currentDate.getFullYear()}`;
-
-        // Update the content of the elements with the formatted date and version number
-        lastUpdatedElement.textContent = formattedDate;
-        versionNumberElement.textContent = "1.0.05"; // Change this to your desired version number
-    });
-      </script>
-  </div></div>
-
-  
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/bootstrap.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/init.js"></script>
-</footer>
-</html>
-
-
+            // Get the elements where you want to display the last updated date and version number
+            const lastUpdatedElement = document.getElementById("lastUpdatedDate");
+            const versionNumberElement = document.getElementById("versionNumber");
+    
+            // Define the manually set last updated date and version number
+            const manuallySetLastUpdatedDate = "09/October/2023"; // Format: dd/mm/yyyy
+            const manuallySetVersionNumber = "1.0.08"; // Change this to your desired version number
+    
+            // Update the content of the elements with the manually set values
+            lastUpdatedElement.textContent = manuallySetLastUpdatedDate;
+            versionNumberElement.textContent = manuallySetVersionNumber;
+        });
+    </script>   
 </body>
 </html>

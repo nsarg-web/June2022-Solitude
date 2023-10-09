@@ -636,6 +636,12 @@ a:after {
 }
 
 /* Section Dividers Backgrounds */
+.custom-bg1 {
+  background-image: url('images/picture/jota/jota2023/jota2023med');
+  background-size: cover; /* Adjust the image size as needed */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed; /* Optional - make the image fixed */
+}
 
 .divider2 {
   background-image: url("images/picture/Jacob_Tuning_radio.jpg" );
@@ -644,7 +650,7 @@ a:after {
 
 .divider3 {
   /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("ima" width="500" height="900");
+  background-image: url("images/picture/" width="500" height="900");
   margin-top: 0px;
 }
 
