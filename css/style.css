@@ -43,8 +43,12 @@ The color of the shadow (using RGBA notation where the last value is the opacity
 You can adjust these values to achieve the shadow effect you prefer. The example above applies a slightly blurred and slightly transparent shadow with a black color.*/
 
 .with-shadow {
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
-  font-size: 45px; /* Set the font size */
+  text-shadow: 6px 0px 2px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+  font-size: 100px; /* Set the font size */
+}
+.with-shadowwho {
+  text-shadow: 6px 0px 2px rgba(129, 84, 84, 0.5); /* Adjust the values as needed */
+  font-size: 50px; /* Set the font size */
 }
 
 .line-height { line-height: 1.5;}
@@ -176,7 +180,7 @@ body {
 }
 
 .col-md-4 {
-  padding-bottom: 20px;
+  padding-bottom: 1px;
 }
 
 .row {
@@ -463,7 +467,7 @@ a:after {
 
 #headerwrap {
   margin-top: 0px;
-  padding-top: 120px;
+  padding-top: 70px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
@@ -510,13 +514,13 @@ a:after {
 }
 
 .greywrap .callout {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .greywrap .icon {
-  font-size: 60px;
-  line-height: 30px;
-  margin-bottom: 10px;
+  font-size: 6px;
+  line-height: 0px;
+  margin-bottom: 1px;
 }
 
 .gap {
@@ -634,18 +638,18 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider2 {
-  background-image: url("Images/picture/Jacob_Tuning_radio.jpg" );
+  background-image: url("images/picture/Jacob_Tuning_radio.jpg" );
   margin-top: 0px;
 }
 
 .divider3 {
   /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/Jacob_Tuning_radio.jpg" width="500" height="900");
+  background-image: url("ima" width="500" height="900");
   margin-top: 0px;
 }
 
 .divider4 {
-  background-image: url("Images/picture/shack2.jpg");
+  background-image: url("images/picture/b");
 }
 
 .divider {
@@ -662,7 +666,7 @@ a:after {
 
 .service-info {
   text-align: left;
-  margin-top:  30px;
+  margin-top:  10px;
 }
 
 .service-info h2 {
@@ -778,7 +782,7 @@ a:after {
 }
 
 .team-info h4 {
-  font-size: 22px;
+  font-size: 24px;
   text-transform: uppercase;
 }
 

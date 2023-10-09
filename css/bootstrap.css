@@ -547,10 +547,10 @@ a.bg-info:hover {
   background-color:cyan; /*#afd9ee;*/
 }
 .bg-warning {
-  background-color: #fcf8e3;
-}
+ /* background-color: #fcf8e3;*/
+background-color: #fdfdfa;}
 a.bg-warning:hover {
-  background-color: #f7ecb5;
+  background-color: white;
 }
 .bg-danger {
   background-color: #f2dede;
