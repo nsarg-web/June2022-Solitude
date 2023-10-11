@@ -138,7 +138,7 @@
 <!-- ==== WHO we are ==== -->
 <div class="container" id="who">
 <div class="row white">
-  <h2 class="animated bounceIn with-shadowwho purple text-center">Who we are
+  <h2 class="animated bounceIn with-shadow purple text-center">Who we are
   </h2>
   <div class="fade-up col-md-6">
     <h4 class="purple"><br>
@@ -179,7 +179,7 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <div class="container section">
   <div class="row white justify-content-center text-center">
     <!--#headerwrap p { CONTROLS the text size and colour-->
-    <h2 class="animated bounceIn with-shadowwho purple text-center">MEET THE LEADERS
+    <h2 class="animated bounceIn with-shadow purple text-center">MEET THE LEADERS
     </h2>
 <hr class="fade-down title-mb">
 </div>
@@ -458,17 +458,23 @@ The only trouble was we had to dismantle it, move it from the other side of town
     <!-- col -->
   </div>
 </div>    
- <div id="footerwrap">
-  <div class="container">
+ 
+<div class="container">
+  <div class="text-center">
     <i>
-      <a href="https://www.facebook.com/groups/nsarg" class=" text-center green">Join our Facebook page
-      </a>
-      <h2 class=white>Join our facebook page by clicking the box above
+      <h2>
+        <a href="https://www.facebook.com/groups/nsarg">Join our Facebook page</a>
       </h2>
-      <footer>
-        <h2>Site Last Updated: <span id="lastUpdatedDate"></span></h2>
-        <p>Version: <span id="versionNumber">1.0</span></p>
-    </footer>    
+    </i>
+  </div>
+</div>
+
+<footer>
+  <h2>Site Last Updated: <span id="lastUpdatedDate"></span></h2>
+  <p>Version: <span id="versionNumber"></span></p>
+</footer> 
+
+       
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Get the elements where you want to display the last updated date and version number
@@ -476,13 +482,16 @@ The only trouble was we had to dismantle it, move it from the other side of town
             const versionNumberElement = document.getElementById("versionNumber");
     
             // Define the manually set last updated date and version number
-            const manuallySetLastUpdatedDate = "09/October/2023"; // Format: dd/mm/yyyy
-            const manuallySetVersionNumber = "1.0.08"; // Change this to your desired version number
+            const manuallySetLastUpdatedDate = "11th October 2023"; // Format: dd/mm/yyyy
+            const manuallySetVersionNumber = "1.0.09"; // Change this to your desired version number
     
             // Update the content of the elements with the manually set values
             lastUpdatedElement.textContent = manuallySetLastUpdatedDate;
             versionNumberElement.textContent = manuallySetVersionNumber;
         });
-    </script>   
+    </script>  
+</div> 
+</div>
+</section>
 </body>
 </html>

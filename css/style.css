@@ -43,7 +43,7 @@ The color of the shadow (using RGBA notation where the last value is the opacity
 You can adjust these values to achieve the shadow effect you prefer. The example above applies a slightly blurred and slightly transparent shadow with a black color.*/
 
 .with-shadow {
-  text-shadow: 6px 0px 2px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+  text-shadow: 6px 0px 2px rgba(55, 199, 11, 0.829); /* Adjust the values as needed */
   font-size: 100px; /* Set the font size */
 }
 .with-shadowwho {
@@ -529,7 +529,7 @@ a:after {
 
 
 #footerwrap {
-  background: #202020;
+  background: white;
   margin-top: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -538,7 +538,7 @@ a:after {
 }
 
 #footerwrap h4 {
-  color: white;
+  color: whitesmoke;
 }
 
 #footer-social {
