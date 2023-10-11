@@ -639,14 +639,16 @@ a:after {
 
 
   .bp-image {
-    background-image: url('images/picture/leaders/Baden_Powell.jpg');
+    background-image: url('../images/picture/leaders/Baden_Powell.jpg');
     background-size: cover; /* You can adjust this to control how the image is scaled */
     background-position: center; /* You can adjust this to control the image's position */
-    background-attachment: fixed; /* This makes the background fixed as the content scrolls */
+    /*background-attachment: fixed; /* This makes the background fixed as the content scrolls */
   }
+  
 
-.custom-bg1 {
-  background-image: url('images/picture/jota/jota2023/jota2023med');
+  
+.jota_badge_2023 {
+  background-image: url('../images/picture/jota/jota2023/jota2023med');
   background-size: cover; /* Adjust the image size as needed */
   background-repeat: no-repeat; /* Prevent image repetition */
   background-attachment: fixed; /* Optional - make the image fixed */
@@ -793,7 +795,8 @@ a:after {
 
 .team-info {
   text-align: left;
-  background: #f5f5f5;
+ 
+  background: transparent;
 }
 
 .team-info h4 {
