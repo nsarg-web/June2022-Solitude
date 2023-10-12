@@ -639,34 +639,33 @@ a:after {
 
 
   .bp-image {
-    background-image: url('../images/picture/leaders/Baden_Powell.jpg');
+    background-image: url('../Images/picture/leaders/Baden_Powell.jpg');
     background-size: cover; /* You can adjust this to control how the image is scaled */
     background-position: center; /* You can adjust this to control the image's position */
     /*background-attachment: fixed; /* This makes the background fixed as the content scrolls */
   }
   
-
+/*.jota_badge_2023 {
+  background-image: url('../Images/picture/jota/jota2023/jota2023med.gif');
   
-.jota_badge_2023 {
-  background-image: url('../images/picture/jota/jota2023/jota2023med');
-  background-size: cover; /* Adjust the image size as needed */
+ background-size: cover; /* Adjust the image size as needed */
   background-repeat: no-repeat; /* Prevent image repetition */
-  background-attachment: fixed; /* Optional - make the image fixed */
-}
+  /*background-attachment: fixed; /* Optional - make the image fixed */
+}*/
 
 .divider2 {
-  background-image: url("../images/picture/Jacob_Tuning_radio.jpg" );
+  background-image: url("../Images/picture/Jacob_Tuning_radio.jpg" );
   margin-top: 0px;
 }
 
 .divider3 {
   /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("images/picture/" width="500" height="900");
+  background-image: url("Images/picture/" width="500" height="900");
   margin-top: 0px;
 }
 
 .divider4 {
-  background-image: url("images/picture/b");
+  background-image: url("Images/picture/b");
 }
 
 .divider {
