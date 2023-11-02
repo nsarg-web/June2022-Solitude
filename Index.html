@@ -105,6 +105,8 @@
             Jamboree on the Air is the highlight of the Radio Scouting calendar, when Scouts have the opportunity to share experiences and exchange ideas 
             with some of the 1.5 million young people taking part. This is truly the biggest Scout Jamboree in the world!
           </h4>
+          <img class="fa-border btn-success btn  smoothScroll" id="myImage" src="/Images/picture/jota/jota2023med.gif" alt="Click me">
+          <!--<img class="img fade-down"src="/Images/picture/jota/jota2023med.gif">class="">-->
         </div>
       </div>
     </div>
@@ -117,7 +119,7 @@
           <h2 class="purple text-center">Having fun at JOTA 2023
            </h2>
           <h4 class="purple">
-            This year we had a great weekend was had at Overstone Scout Campsite for the 66th Jamboree On The air. Scouts from across Northampton gathered to camp and take part in a weekend of activities linked to NSARG Amateur radio station GB4NDS operating on HF (Cobweb, G5RV and Longwire Antenna) VHF / UHF (Co-Linear and Discone) and Satellites (QFH Antenna) plus Skype - allowing contacts around the world and locally - using SSB, Morse, FT8, DMR and Digital modes. It was wonderful for the young people to make Scouting links across the globe during this truly 
+            This year we had a great weekend at Overstone Scout Campsite for the 66th Jamboree On The air. Scouts from across Northampton gathered to camp and take part in a weekend of activities linked to NSARG Amateur radio station GB4NDS operating on HF (Cobweb, G5RV and Longwire Antenna) VHF / UHF (Co-Linear and Discone) and Satellites (QFH Antenna) plus Skype - allowing contacts around the world and locally - using SSB, Morse, FT8, DMR and Digital modes. It was wonderful for the young people to make Scouting links across the globe during this truly 
             International Jamboree. 
           </h4>
         </div>
@@ -402,7 +404,11 @@ The only trouble was we had to dismantle it, move it from the other side of town
             <h2 class="slideInLeft green">JOTA 2023</h2>
             <div class="row custom-bg1"></div>
               <h4> 
-                The station this year will be located in Knight's Lodge at Overstone Scout Activity Centre. We have an exciting programme of Radio Scouting activities at Jamboree On The Air and Jamboree on the Internet this year. This includes a live video feed with other Scouts around the world, receiving images from weather satellites and contacting other Jamboree stations using HF voice communications. Many other aspects of the amazing world of radio communications can be experienced. </h4>
+                The station this year will be located in Knight's Lodge at Overstone Scout Activity Centre. We have an 
+                exciting programme of Radio Scouting activities at Jamboree On The Air and Jamboree on the Internet 
+                this year. This includes a live video feed with other Scouts around the world, receiving images from weather 
+                satellites and contacting other Jamboree stations using HF voice communications. Many other aspects 
+                of the amazing world of radio communications can be experienced. </h4>
                
                 <img class="img fade-down" src="Images/neckieb.gif" alt="necker"></h4>
             </div>    </div>      </div>   
@@ -479,6 +485,15 @@ The only trouble was we had to dismantle it, move it from the other side of town
 
        
     <script>
+ // Get the image element by its ID
+ var image = document.getElementById("myImage");
+
+// Add a click event listener
+image.addEventListener("click", function() {
+    // Redirect to the desired website
+    window.location.href = "https://www.jotajoti.info/";
+});
+
         document.addEventListener("DOMContentLoaded", function() {
             // Get the elements where you want to display the last updated date and version number
             const lastUpdatedElement = document.getElementById("lastUpdatedDate");
@@ -486,7 +501,7 @@ The only trouble was we had to dismantle it, move it from the other side of town
     
             // Define the manually set last updated date and version number
             const manuallySetLastUpdatedDate = "2nd November October 2023"; // Format: dd/mm/yyyy
-            const manuallySetVersionNumber = "1.0.14"; // Change this to your desired version number
+            const manuallySetVersionNumber = "1.0.16"; // Change this to your desired version number
     
             // Update the content of the elements with the manually set values
             lastUpdatedElement.textContent = manuallySetLastUpdatedDate;
