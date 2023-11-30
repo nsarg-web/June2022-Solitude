@@ -23,6 +23,16 @@
   padding-left: .75em;
   padding-right: .75em;
   }
+
+  /* 
+++++++++++++++++++++++++++
+++CSS WebSDR ++
+++++++++++++++++++++++++++*/
+.margin_websdr{
+  margin: 40px;
+}
+
+
   .card-registration .select-arrow {
   top: 13px;
   }
@@ -1415,7 +1425,7 @@ span.counter {
 
 .backstretch:before {
   content: "";
-  background-image: url("/solitude/Images/picture/Jota_Antennas_Royal.jpg");
+  background-image: url("/Images/picture/Jota_Antennas_Royal.jpg");
   width: fit-content;
   height: fit-content;
   min-width: 100%;
