@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Published 20/08/2023 V1.01 Resolved NSW-27, NSW-3-, NSW-32-->
+    <!-- Published 22/08/2023 V1.0.02  More work on the Nav Bar,News an activites Tidied.-->
+    <!-- Published 23/08/2023 V1.0.03 Corrected the line indents to make it easier to follow-->
+    <!-- Published 23/08/2023 V1.0.04 Reset the Font styles, Fixed NSW-27 Colour of text green, Fixed the View Calendar button -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Radio Scouting NSARG JOTA JOTI GB4NDS G6NDS Amateur radio Northampton scout Amateur  daily NOAA images">
+    <meta name="author" content="Karrl Richardson G7AAY">
+    <title>NSARG</title>  
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/elusive-webfont.css">
+   <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=NunitoSans-Regular:300,400,700,300italic,400italic">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">  
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>    
+<script src="js/bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<!--<script src="js/bootstrap.min.js"></script>-->
+  </head>
+  <body>
+    <div class="navbar navbar-btn">
+      <a href="#home">
+      </a>
+      <a href="noaa/" class="smoothScroll">NOAA Weather Images
+      </a>
+      <a href="websdr.html" class="smoothScroll">WebSDR
+      </a>
+      <header class="clearfix text-center">
+        <h2 class="animated bounceInLeft with-shadow purple">Northampton Scout Amateur</h2>
+      <div id="SDR desciption margin_websdr">
+        <h2 class="animated bounceInRight with-shadow purple">Radio Group</h2>
+      <div id="SDR description margin_websdr">
+        <h4 class="margin_websdr">
+          <h1 class=" btn-lg btn-danger ">Updated 04/12/2023 V0.01 TEST PAGE</h1>
+          <h2 class="margin_websdr green text-center">TEMPLATE</h2>
+          <br>
+
+          
+<div class="container" id="visitor">
+    <div class="row row white">
+      <br>
+      <h1 class="fade-down green text-center">THANKS FOR VISITING US</h1>
+    </div>
+      <div class="row text-center"> <!-- Center the flag counter horizontally -->
+        <a href="https://info.flagcounter.com/Gkvo">
+          <img src="https://s01.flagcounter.com/count2/Gkvo/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_100/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter">
+        </a>
+      
+      <hr class="fade-down title-mb">
+      <div class="col-md-4 fade-up">
+        <!-- col -->
+      </div>
+    </div>    
+     
+    <div class="container">
+      <div class="text-center">
+        <i>
+          <h2 class="with-shadow fa-border btn-success">
+            <a href="https://www.facebook.com/groups/nsarg">Join our Facebook page</a>
+          </h2>
+        </i>
+      </div>
+    </div>
+    
+    <footer>
+      <h2 class="text-center">Site Last Updated: <span id="lastUpdatedDate"></span></h2>
+      <h2 class="text-center">Version: <span id="versionNumber"></span></p>
+    </footer> 
+    
+           
+        <script>
+     // Get the image element by its ID
+     var image = document.getElementById("myImage");
+    
+    // Add a click event listener
+    image.addEventListener("click", function() {
+        // Redirect to the desired website
+        window.location.href = "https://www.jotajoti.info/";
+    });
+    
+            document.addEventListener("DOMContentLoaded", function() {
+                // Get the elements where you want to display the last updated date and version number
+                const lastUpdatedElement = document.getElementById("lastUpdatedDate");
+                const versionNumberElement = document.getElementById("versionNumber");
+        
+                // Define the manually set last updated date and version number
+                const manuallySetLastUpdatedDate = "20th November October 2023"; // Format: dd/mm/yyyy
+                const manuallySetVersionNumber = "1.0.18"; // Change this to your desired version number
+        
+                // Update the content of the elements with the manually set values
+                lastUpdatedElement.textContent = manuallySetLastUpdatedDate;
+                versionNumberElement.textContent = manuallySetVersionNumber;
+            });
+        </script>  
+    </div> 
+    </div>
+    </section>
+    </body>
+    </html>
+    
