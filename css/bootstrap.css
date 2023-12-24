@@ -134,6 +134,12 @@ button[disabled],
 html input[disabled] {
   cursor: default;
 }
+
+.button-border{
+     background-color: white;
+    color: black;
+    border: 2px solid #04AA6D; /* Green */
+}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
@@ -2084,7 +2090,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #3276b1;
+  background-color: 3279b4 /*3276b1;*/
   border-color: #285e8e;
 }
 .btn-primary:active,
