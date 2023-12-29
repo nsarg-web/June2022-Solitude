@@ -29,8 +29,13 @@
 ++CSS WebSDR ++
 ++++++++++++++++++++++++++*/
 .margin_websdr{
-  margin: 50px;
-}
+  
+    margin: left 5rem;
+    margin-right:5rem;
+    margin-bottom:1%;
+    margin-top:1%;
+    }
+
 
 
   .card-registration .select-arrow {
@@ -44,8 +49,7 @@
 
 
 
-/*  In this example, the text-shadow property takes four values:
-
+/* 
 The horizontal offset (positive value moves the shadow to the right, negative value to the left).
 The vertical offset (positive value moves the shadow down, negative value up).
 The blur radius (higher value creates a more spread out shadow).
@@ -55,10 +59,6 @@ You can adjust these values to achieve the shadow effect you prefer. The example
 .with-shadow {
   text-shadow: 6px 0px 2px rgba(55, 199, 11, 0.829); /* Adjust the values as needed */
   font-size: 100px; /* Set the font size */
-}
-.with-shadowwho {
-  text-shadow: 6px 0px 2px rgba(129, 84, 84, 0.5); /* Adjust the values as needed */
-  font-size: 50px; /* Set the font size */
 }
 
 .line-height { line-height: 1.5;}
@@ -92,20 +92,15 @@ textarea {
   color: #222;
 }
 body {
-  margin: 0;
-}
-body {
-  margin: 0;
+  margin: 5rem;
   font-size: 1em;
   line-height: 1.4;
 }
 .navbar {
   overflow: hidden;
   background-color: lightgray
- /* ****** Colour of the background of the NavBar
- background-color: rgb(44, 172, 65);
-  */
- /* font-family: Arial, Helvetica, sans-serif; */
+ /* ****** Colour of the background of the NavBar */
+ 
 }
 .navbar a {
   float: left;
@@ -371,9 +366,8 @@ h6 {
 /* Paragraph & Typographic */
 
 p {
-  font-size: 25px
+  font-size: 25px;
   line-height: 28px;
-  line-
   margin-bottom: 25px;
 }
 
@@ -655,22 +649,13 @@ a:after {
     /*background-attachment: fixed; /* This makes the background fixed as the content scrolls */
   }
   
-/*.jota_badge_2023 {
-  background-image: url('../Images/picture/jota/jota2023/jota2023med.gif');
-  
- background-size: cover; /* Adjust the image size as needed */
-  background-repeat: no-repeat; /* Prevent image repetition */
-  /*background-attachment: fixed; /* Optional - make the image fixed */
-}*/
-
 .divider2 {
-  background-image: url("Images/picture/Jacob_Tuning_radio.jpg" );
+  background-image: url("../Images/picture/Jacob_Tuning_radio.jpg");
   margin-top: 0px;
 }
 
 .divider3 {
-  /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/" width="500" height="900");
+  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");
   margin-top: 0px;
 }
 
