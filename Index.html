@@ -7,7 +7,7 @@
     <!-- Published 23/08/2023 V1.0.04 Reset the Font styles, Fixed NSW-27 Colour of text green, Fixed the View Calendar button -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Radio Scouting NSARG JOTA JOTI GB4NDS G6NDS Amateur Radio Northampton Scout Amateur  daily NOAA images Activity Badges Communicator electronics badge websdr Scout Jamboree JOTA JOTI">
+    <meta name="keywords" content="Radio Scouting NSARG JOTA JOTI GB4NDS G6NDS Amateur radio Northampton scout Amateur  daily NOAA images communicator badge">
     <meta name="author" content="Karrl Richardson G7AAY">
     <title>NSARG</title>  
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -30,13 +30,13 @@
   </head>
   <body>
     <div class="navbar navbar-btn">
-      <a href="#home">
+      <a href="index.html">
       </a>
       <a href="noaa/" class="smoothScroll">NOAA Weather Images
       </a>
-      <!-- <a href="websdr.html" class="smoothScroll">WebSDR
-      </a>-->
-     <!-- <a href="solitude/noaa/" class="smoothScroll">Activity Badges
+      <!--<a href="websdr.html" class="smoothScroll">WebSDR-->
+      </a>
+     <!-- <a href="noaa/" class="smoothScroll">Noaa images
       </a> -->
     </div>
         
@@ -46,7 +46,7 @@
     <h2 class="animated bounceIn with-shadow purple">Northampton Scout Amateur Radio Group
     </h2>
     <h3 class="green row">This site is still under development. It is a learn as you go project,<br> 
-      As with any project, it is taking a lot longer than expected. <br>The last updated date is displayed in the footer of the page
+      As any project, it is taking a lot longer than expected. The last updated date is displayed in the footer of the page .
     </h3>
     <br>
   </header>
@@ -58,12 +58,10 @@
           </i></a>      
           <div class="bg-info">
             <h3 class="bg-warning ">Click the View Calendar to see Meeting dates and other group activities</h3>
-            
-
-            <div class="alert-secondary d-flex align-items-center" role="alert">
-              <h3 class="m-0">Happy Christmas from all the leaders, see you in January 2024</h3>
-            </div>
-            
+              <div class="alert alert-primary" role="alert">
+                <h3> Our next meeting is 20th Janruary 2024
+                </h3>
+              </div>
           </div>
         </div>
 
@@ -76,11 +74,11 @@
           
           <!-- Content for the first column -->
           <h2 class="purple text-center">66th Jamboree on the Air -
-           
+            66 years connecting Scouts!
            </h2>
            <div class="row">
           <h2 class="text-center">20th - 22nd
-            October
+            October 2023 
           </h2>
           <h4 class="purple">
             The station this year took place in Knight's Lodge at Overstone Scout Activity Centre. 
@@ -89,14 +87,16 @@
             This included a live video feed with other Scouts around the world, receiving images from weather satellites 
             and contacting other Jamboree stations using HF voice communications. Scouts took part in the many other aspects 
             of the amazing world of radio communications..
-          </h4>  
+          </h4>
+            <!--<a class="btn btn-success" href="mailto:nsarg81@outlook.com">JOTA Bookings-->
+            
            </div>
         </div>
       </div>
     </div>
     <!-- End of column 1 -->
     <!-- Column 2 -->
-    <div class="col-md-4 col-md-4 col-md-4">
+    <div class="col-md-4 col-sm-4 col-xs-6">
       <div class="callout">
         <div class="col-md-9 fade-up service-info">
           <!-- Content for the second column -->
@@ -106,7 +106,8 @@
             Jamboree on the Air is the highlight of the Radio Scouting calendar, when Scouts have the opportunity to share experiences and exchange ideas 
             with some of the 1.5 million young people taking part. This is truly the biggest Scout Jamboree in the world!
           </h4>
-          <img class="img team-image image-res" src="/Images/picture/jota/jota2023med.gif" width="500" height="700" alt="Jota 2023">               
+          <img class="fa-border btn-success btn  smoothScroll" id="myImage" src="/Images/picture/jota/jota2023med.gif" alt="Click me">
+          <!--<img class="img fade-down"src="/Images/picture/jota/jota2023med.gif">class="">-->
         </div>
       </div>
     </div>
@@ -153,12 +154,27 @@ The only trouble was we had to dismantle it, move it from the other side of town
   <!-- col-md-6 -->
   <div class="fade-up col-md-6">
     <p>
-      <img class="img team-image image-res" src="Images/picture/shack2.jpg" width="500" height="700" alt="Old Radio Station ">
+      <img class="img team-image image-res" src="Images/picture/shack2.jpg" width="500" height="700" alt="Old radio station ">
     </p>
   </div> 
 </div> 
 <!--END SECTION BADGE REQUIREMENTS-->
+<!-- ==== SECTION DIVIDER2   See NSW-27 for details on how to set the colour of the text --> 
+<section class="section-divider textdivider-h1 divider2">
+  <div class="container">
+    <h2 class="fade-down">Using a band guide helps new listeners find and understand the various modes of transmission used in amateur Radio
+    </h2>
+    <p class="fade-up">
+    </p>
+  </div>
+  <br>
+</section>
+<!-- SECTION DIVIDER2 END -->
 
+<!-- container -->
+<!-- section -->
+<!-- ==== TEAM Leaders ==== -->
+<!-- Formats 3 Columns-->
 
 
 <div class="container section bp-image">
@@ -304,26 +320,24 @@ The only trouble was we had to dismantle it, move it from the other side of town
 </div>
 </div>
 </div>
-
+<!-- container -->
 
 <!-- ==== GREYWRAP ==== -->
 <div>
 <div class="container"><br><br>
   <div class="row">
-    <div class="col-md-12 centered fade-up">
+    <div class="col-md-6 centered fade-up">
       <img class="img-responsive" src="Images/picture/cse.jpg" alt="Scouts using PMR 446 radios">
     </div>
-    <div class="col-md-12 fade-down">
-      <h4 class="text-center purple">Would you like to be part of this expanding hobby, or find out more?</h4>
-      <p class="text-center">Come along to one of our regular monthly meetings,
+    <div class="col-md-6 fade-down">
+      <h4>Would you like to be part of this expanding hobby, or find out more?</h4>
+      <p>Come along to one of our regular monthly meetings,
         Check out our Facebook group page. 
-        or Send us an Email using the buttons below.
+        Send us an Email
         </p>
       <p>
-    
-        <a class="col-md-4 btn homebtn smoothScroll button-border text-center" href="mailto:nsarg81@outlook.com">Email</a>
-        <a class="col-md-4  homebtn smoothScroll button-border text-center">DMR TGIF-36222</a>
-        <a class="col-md-4 btn homebtn smoothScroll button-border text-center" href="https://www.facebook.com/groups/nsarg">Facebook</a>
+        <a class="btn btn-success" href="mailto:nsarg81@outlook.com">Email</a>
+        <a class="btn btn-success" href="https://www.facebook.com/groups/nsarg">Facebook</a>
      </p>
     </div>
   </div>
@@ -376,45 +390,46 @@ The only trouble was we had to dismantle it, move it from the other side of town
               </h4>
               <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
           </div>  
-              <div class="column">
+          <div class="column">
             <h2 class="slideInLeft purple">JOTA 2022 Introduction</h2>
               <h4> All Scouts that visited were given a brief introduction, before splitting into small groups. In the smaller groups, they 
                 visited each of the different activities. 40/80 Meters station. 10, 15 and 20 Meter SSB and FT8 finally our two-meter station where they could pass greetings messages
                 <img class="img fade-down" src="Images/picture/jota/jota2022/intro.jpg" alt="Jota 2022 intro"><br>
                 <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
               </h4>
-              </div>         
-           
-
-<div class="container">
-  <div class="row">
-    <!-- Left Column -->
-    <div class="col-md-6">
-      <h2 class="slideInLeft green">JOTA 2023</h2>
-      <h4>
-        The station this year will be located in Knight's Lodge at Overstone Scout Activity Centre. We have an
-        exciting programme of Radio Scouting activities at Jamboree On The Air and Jamboree on the Internet
-        this year. This includes a live video feed with other Scouts around the world, receiving images from weather
-        satellites and contacting other Jamboree stations using HF voice communications. Many other aspects
-        of the amazing world of radio communications can be experienced.
-      </h4>
-      <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
-    </div>
-
-    <!-- Right Column -->
-    <div class="col-md-6">
-      <h2 class="margin_websdr text-center green">Donations</h2>
-      <h4>
-        Many thanks to Ron Pass.
-        Ron donated a TS130 HF Transceiver, an ATU and PowerSupply
-        and two Laptops, both of which have been set up for Logging, Data modes using SDR receivers.
-        The NOAA weather images on this site were received using one of the laptops.<br><br>
-        <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
-      </h4>
-    </div>
-  </div>
+            </div>         
+           <!-- Left Colum-->
+           <div class="container section jota_badge_2023">
+           <div class="column">
+            <div class="container section"></div>
+            <h2 class="slideInLeft green">JOTA 2023</h2>
+            <div class="row custom-bg1"></div>
+              <h4> 
+                The station this year will be located in Knight's Lodge at Overstone Scout Activity Centre. We have an 
+                exciting programme of Radio Scouting activities at Jamboree On The Air and Jamboree on the Internet 
+                this year. This includes a live video feed with other Scouts around the world, receiving images from weather 
+                satellites and contacting other Jamboree stations using HF voice communications. Many other aspects 
+                of the amazing world of radio communications can be experienced. </h4>
+               
+                <img class="img fade-down" src="Images/neckieb.gif" alt="necker"></h4>
+            </div>    </div>      </div>   
+<!-- <div class="column">
+   <!-- Content for the right column goes here -->
+  <!--End of BLOGG-->
+     <!-- Donations section -->           
+            <h1 class="margin_websdr text-center purple">Donations</h1>
+            <h4 class="blog-bg">
+                Many thanks to Ron Pass.
+                Ron donated a TS130 HF Transceiver, an ATU and PowerSupply
+                and two Laptops, both of which have been setup for Logging, Data modes using SDR receivers.
+                The NOAA weather images On this site were received using one of the laptops.
+            </h4>
+           </div>
+       </div>
+        
+    
 </div>
-
+</section>
  
 <!-- ==== SECTION Station Location ==== -->
 <section class="section-divider6 textdivider6 text-center">
@@ -427,7 +442,7 @@ The only trouble was we had to dismantle it, move it from the other side of town
        <hr>
       <div class="fade-up">
         <h2 class="green text-center">Northampton, England. 60 miles North of London</h2>
-        <p><strong>Location: IO92NG, WAB Square SP76</p>
+        <p><strong>Location:</strong> IO92NG, WAB Square SP76</p>
     </div>
   </div>
 </div>
@@ -444,45 +459,56 @@ The only trouble was we had to dismantle it, move it from the other side of town
     <a href="https://info.flagcounter.com/Gkvo">
       <img src="https://s01.flagcounter.com/count2/Gkvo/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_100/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter">
     </a>
-
-  <div class="text-center with-shadow">    
-      <span>
-        <a href="https://www.facebook.com/groups/nsarg">Join our Facebook page</a>
-  </div>
-        <h3 class="green text-center">Northampton, England. 60 miles North of London</h3>
-      </h3>
-    
-  </div>
-</span>
-</div>   
-    <div>
-      <footer>
-          <h3 class="text-center">Site Last Updated: <span id="lastUpdatedDate"></span></h3>
-            <h3 class="text-center" id="versionParagraph">Version: <span id="versionNumber"></span></h3>
-      </footer>
-    </div>
   
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      // Get the elements where you want to display the last updated date and version number
-      const lastUpdatedElement = document.getElementById("lastUpdatedDate");
-      const versionNumberElement = document.getElementById("versionNumber");
+  <hr class="fade-down title-mb">
+  <div class="col-md-4 fade-up">
+    <!-- col -->
+  </div>
+</div>    
+ 
 
-      // Define the current date
-      const currentDate = new Date();
+<div class="container">
+  <div class="text-center">
+    <i>
+      <h3 class="with-shadow fa-border btn-success">
+        <a href="https://www.facebook.com/groups/nsarg">Join our Facebook page</a>
+      </h3>
+    </i>
+  </div>
+</div>
 
-      // Format the date as dd/mm/yyyy
-      const formattedDate = `${currentDate.getDate().toString().padStart(2, "0")}/${(currentDate.getMonth() + 1).toString().padStart(2, "0")}/${currentDate.getFullYear()}`;
+<footer>
+  <h2 class="text-center">Site Last Updated: <span id="lastUpdatedDate"></span></h2>
+  <h2 class="text-center">Version: <span id="versionNumber"></span></p>
+</footer> 
 
-      // Update the content of the elements with the formatted date and version number
-     // lastUpdatedElement.textContent = formattedDate;
-      lastUpdatedElement.textContent = "01/01/2024";
+       
+    <script>
+ // Get the image element by its ID
+ var image = document.getElementById("myImage");
 
-      // Set the version number dynamically
-      versionNumberElement.textContent = "1.0.21"; // Change this to your desired version number
-    });
-  </script>
-</footer>
+// Add a click event listener
+image.addEventListener("click", function() {
+    // Redirect to the desired website
+    window.location.href = "https://www.jotajoti.info/";
+});
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the elements where you want to display the last updated date and version number
+            const lastUpdatedElement = document.getElementById("lastUpdatedDate");
+            const versionNumberElement = document.getElementById("versionNumber");
+    
+            // Define the manually set last updated date and version number
+            const manuallySetLastUpdatedDate = "01st January 2024"; // Format: dd/mm/yyyy
+            const manuallySetVersionNumber = "1.0.21"; // Change this to your desired version number
+    
+            // Update the content of the elements with the manually set values
+            lastUpdatedElement.textContent = manuallySetLastUpdatedDate;
+            versionNumberElement.textContent = manuallySetVersionNumber;
+        });
+    </script>  
+</div> 
+</div>
 </section>
 </body>
 </html>
