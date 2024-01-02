@@ -165,16 +165,6 @@ textarea {
 html,
 body {
   height: 100%;
-}
-/* Scout Brand Color Green and 
- KR 16/06/2022*/
- .purple {color: #7413dc;}
-
-.green {color: #16a085;}
-
-.cyan {color: cyan;}
-
-body {
   font-family: "NunitoSans-Regular";
   font-weight: 300;
   font-size: 16px;
@@ -183,6 +173,13 @@ body {
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }
+/* Scout Brand Color Green and 
+ KR 16/06/2022*/
+ .purple {color: #7413dc;}
+
+.green {color: #16a085;}
+
+.cyan {color: cyan;}
 
 .col-md-4 {
   padding-bottom: 1px;
