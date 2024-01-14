@@ -57,8 +57,8 @@ You can adjust these values to achieve the shadow effect you prefer. The example
   font-size: 100px; /* Set the font size */
 }
 .with-shadowwho {
-  text-shadow: 6px 0px 2px rgba(129, 84, 84, 0.5); /* Adjust the values as needed */
-  font-size: 50px; /* Set the font size */
+  text-shadow: 6px 0px 2px rgba(55, 199, 11, 0.829); /* Adjust the values as needed */
+  font-size: 40px; /* Set the font size */
 }
 
 .line-height { line-height: 1.5;}
@@ -655,27 +655,18 @@ a:after {
     /*background-attachment: fixed; /* This makes the background fixed as the content scrolls */
   }
   
-/*.jota_badge_2023 {
-  background-image: url('../Images/picture/jota/jota2023/jota2023med.gif');
-  
- background-size: cover; /* Adjust the image size as needed */
-  background-repeat: no-repeat; /* Prevent image repetition */
-  /*background-attachment: fixed; /* Optional - make the image fixed */
-}*/
-
 .divider2 {
   background-image: url("Images/picture/Jacob_Tuning_radio.jpg" );
   margin-top: 0px;
 }
 
 .divider3 {
-  /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/" width="500" height="900");
+  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");
   margin-top: 0px;
 }
 
 .divider4 {
-  background-image: url("Images/picture/b");
+  background-image:  url("Images/picture/jota");
 }
 
 .divider {
@@ -2409,7 +2400,7 @@ img.mfp-img {
     text-align: center;
     padding: 0;
   }
-}
+
 
 @media all and (max-width: 900px) {
   .mfp-arrow {
