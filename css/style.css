@@ -655,14 +655,6 @@ a:after {
     /*background-attachment: fixed; /* This makes the background fixed as the content scrolls */
   }
   
-/*.jota_badge_2023 {
-  background-image: url('../Images/picture/jota/jota2023/jota2023med.gif');
-  
- background-size: cover; /* Adjust the image size as needed */
-  background-repeat: no-repeat; /* Prevent image repetition */
-  /*background-attachment: fixed; /* Optional - make the image fixed */
-}*/
-
 .divider2 {
   background-image: url("../Images/picture/Jacob_Tuning_radio.jpg");
   margin-top: 0px;
