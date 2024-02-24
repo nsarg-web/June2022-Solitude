@@ -307,6 +307,10 @@ figure {
 img {
   vertical-align: middle;
 }
+
+.bg-light {
+  background-color: #d2d8e0; /* Default light grey background color in Bootstrap */
+}
 .img-responsive {
   display: block;
   max-width: 100%;
