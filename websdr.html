@@ -45,11 +45,14 @@
       <h2 class="animated bounceInLeft with-shadow purple">Northampton Scout Amateur</h2>
     <div id="SDR desciption margin_websdr">
       <h2 class="animated bounceInRight with-shadow purple">Radio Group</h2>
-    <div id="SDR description margin_websdr">
+    
+    
+      <div id="SDR description">
       <h3 class="green margin_websdr">A quick start guide to using an on-line (WebSDR) radio receiver to 
-listen to Amateur <Radio class=""></Radio>
+listen to Amateur Radio transmissions.
 <br></h3>
-<h2>What is a WebSDR?</h2><br>
+<h2>What is a WebSDR?</h2>
+<br>
 A WebSDR is a Software-Defined Radio receiver connected to the internet which allows many users
 to control it and to listen to radio broadcasts simultaneously. You can literally tune around the radio 
 spectrum using you’re your own computer (connected to the internet) and a web browser.
@@ -59,10 +62,13 @@ reception of a range of stations and it covers a wide range of frequencies from 
 Medium Wave (MW) up to the Short Waves…you may recognise these terms from your normal 
 household radios. 
 Start here…
-Start by pointing your favourite browser to http://websdr.ewi.utwente.nl:8901/. You should find a 
-web page that looks like the picture below (once you get past the pictures and text at the top of the 
+Start by pointing your favourite browser to  <a href="http://websdr.ewi.utwente.nl:8901/"></a>
+
+  You should find a web page that looks like the picture below (once you get past the pictures and text at the top of the 
 page).
 
+<img src="/Images/picture/websdr/WebSDR-full-view.jpg">
+    </div>
 Although the web page can look a bit confusing when you first arrive, with numerous controls, there 
 are actually only a few key things you need to know to get listening.
 As soon as you load the page you should start hearing the hiss of radio reception…right now you’re 
@@ -109,6 +115,7 @@ and may already be hearing a radio station. If the tuning indicator is not rough
 you mouse to select the waterfall and drag it left or right to centre things. Remember, hover over 
 the waterfall before left clicking not the yellow tuning indicator…if you click on that and drag you will 
 retune to another frequency.
+<img src="/Images/picture/websdr/waterfall.jpg">
 You’ll notice in the black space under the waterfall there are two frequency ranges marked out. 
 ‘40m amateur’ in green and ‘41m broadcast’ in purple. This highlights where you can hear Amateur 
 Radio stations and commercial broadcast stations…there are many such ‘bands’ of activity and 
@@ -173,6 +180,8 @@ tried to play music as there are no higher frequencies…Radio Amateurs are not 
 broadcast music so this is never really an issue!
 Hopefully your display looks something like this (notice the little vertical bar in the yellow tuning 
 indicator is aligned with the right-hand edge of the LSB signal)
+<!-- Image goes here ??-->
+<img src="/Images/picture/websdr/tuner.jpg">
 
 Experiment by trying to select several different Amateur Radio transmissions and get used to 
 adjusting the tuning indicator so the received voice is understandable. Hurrah, we’re listening to 
@@ -192,12 +201,14 @@ voice frequencies are transmitted) and the person you’re talking to may not sh
 language. To overcome this Radio Amateurs learn a specific way of communicating to ensure what 
 they say is clear and understandable no matter what the reception conditions.
 Here is an example of what you might hear;
+
 <h4 class="purple">
 “Oscar Echo Four Hotel Delta Sierra this is Golf Zero Papa Oscar Tango. Many thanks for the call old 
 man. The name here is Michael and the QTH is Thatcham, that’s Tango Hotel Alpha Tango Charlie 
 Hotel Alpha Mike about 70km west of London. Your signal report here is five and seven, five and 
 seven with some QSB. I wonder how you’re copying me? Oscar Echo Four Hotel Delta Sierra this is 
 Golf Zero Papa Oscar Tango”</h4>
+
 So what was that all about?!!
 “Oscar Echo Four Hotel Delta Sierra this is Golf Zero Papa Oscar Tango”
 You have to be ‘licensed’ to operate as a Radio Amateur. You first undertake some simple training 
@@ -207,10 +218,21 @@ example OE4HDS is a Radio Amateur from Austria being called by G0POT from the UK
 establishing a contact (and regularly throughout the exchange) the two stations will give their call 
 signs to identify themselves (it’s a licencing requirement…broadcast stations have to do the same 
 which is why they regularly play jingles with their station name every 30 minutes or more). But 
-rattling off “OE4HDS” may be difficult for other stations to hear and understand therefore, <button <div class="container-fluid"> 
+rattling off “OE4HDS” may be difficult for other stations to hear and understand therefore,
+<div class="container">
+  <button id="phoneticButton" class="btn btn-primary">Using important but unusual words like call signs, names and locations you will hear stations spelling 
+    them out using Phonetics</button>
+</div>
+
+<script>
+document.getElementById('phoneticButton').addEventListener('click', function() {
+  window.location.href = 'https://en.wikipedia.org/wiki/NATO_phonetic_alphabet'; // Replace 'https://www.example.com' with your desired URL
+});
+</script>
 Using important but unusual words like call signs, names and locations you will hear stations spelling 
 them out using Phonetics (see <link= https://en.wikipedia.org/wiki/NATO_phonetic_alphabet> for more 
-info).</div>
+info).
+  </div>
 “Many thanks for the call old man”
 That’s a bit rude isn’t it, calling him an <q></q>old man<q></q>? Actually, no…this is an endearing way to address 
 someone when you don’t know their name yet. 
@@ -219,8 +241,11 @@ Mike about 70km west of London”
 Typically the first things exchanged are ones name and location. If reception isn’t strong or if an 
 operator has an unusual name they will typically spell that out using phonetics. Most Radio 
 Amateurs use NATO Phonetics but you’ll hear lots of random words used when spelling words with 
-phonetics! QTH is another way of saying my location…there are many ‘Q codes’ (see 
-https://en.wikipedia.org/wiki/Q_code for further info) and they can help when reception is poor or 
+phonetics! QTH is another way of saying my location…there are many ‘Q codes’
+<div class="<i class="fab fa-truck-container"></i>
+    (see https://en.wikipedia.org/wiki/Q_code for further info) 
+  </div>
+and they can help when reception is poor or 
 when you are speaking to someone who is not a native of your language. Only a small subset of Q
 codes are regularly heard in use. As we’re often in communication with people from outside of our 
 country it can help to qualify ones location by indicating your position in relation to the capital or 
@@ -230,9 +255,11 @@ geography!
 To help you understand how well you are being heard at the other end Radio Amateurs exchange 
 ‘signal reports’. For voice communications this is usually two numbers (5 and 7 in this example). The 
 first number is Readability (R) and is on a scale from 1 – 5. The second number is signal Strength (S) 
-and is on a scale from 1 – 9. This approach to signal measurement is called RST (See 
-https://en.wikipedia.org/wiki/RST_code for further information) and the T or Tone part only applies 
-when using Morse code.
+and is on a scale from 1 – 9. This approach to signal measurement is called RST 
+  <div class="container-fluid web margin_websdr">(See 
+https://en.wikipedia.org/wiki/RST_code for further information) 
+  </div> 
+the T or Tone part only applies when using Morse code.
 “I wonder how you’re copying me? Oscar Echo Four Hotel Delta Sierra this is Golf Zero Papa Oscar 
 Tango”
 Just like the beginning of the ‘over’ at the end Radio Amateurs will typically exchange call signs again 
@@ -248,11 +275,12 @@ hearing or about how to find out more about Amateur Radio as a hobby then contac
 g0pot@peanutpower.co.uk or visit www.peanutpower.co.uk.
 In future guides we’ll cover how to listen to data modes and Morse code
 Further information
-A useful list of alternative WebSDR websites an be found at http://websdr.org/.
+  <div class="container-fluid margin_websdr">A useful list of alternative WebSDR websites an be found at http://websdr.org/.
 There are many websites that list broadcast transmission schedules where you can check out what 
 you should be able to hear and look for broadcasts in your own language. See http://www.shortwave.info/ as an example.
 You can find out more about Amateur Radio in the UK from the Radio Society of Great Britain at 
 http://rsgb.org/main/faq-2/how-to-become-a-radio-amateur-faq/
+  </div>
 A list of call sign prefixes and the countries they relate to can be found at 
 http://rsgb.org/main/operating/licensing-novs-visitors/international-prefixes/
 Many Radio Amateurs have a personal information page hosted at http://www.qrz.com so you can 
