@@ -7,6 +7,7 @@
     <!-- Published 22/08/2023 V1.0.02  More work on the Nav Bar,News an activites Tidied.-->
     <!-- Published 23/08/2023 V1.0.03 Corrected the line indents to make it easier to follow-->
     <!-- Published 23/08/2023 V1.0.04 Reset the Font styles, Fixed NSW-27 Colour of text green, Fixed the View Calendar button -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Radio Scouting NSARG JOTA JOTI GB4NDS G6NDS Amateur radio Northampton scout Amateur  daily NOAA images wesdr">
@@ -53,7 +54,7 @@ listen to Amateur Radio transmissions.
 <br></h3>
 <h2>What is a WebSDR?</h2>
 <br>
-A WebSDR is a Software-Defined Radio receiver connected to the internet which allows many users
+WebSDR is a Software-Defined Radio receiver connected to the internet which allows many users
 to control it and to listen to radio broadcasts simultaneously. You can literally tune around the radio 
 spectrum using you’re your own computer (connected to the internet) and a web browser.
 There are many WebSDR receivers out there but for the purpose of this guide I’m going to use the 
@@ -61,8 +62,10 @@ one hosted by the University of Twente in the Netherlands. This site is located 
 reception of a range of stations and it covers a wide range of frequencies from Long Wave (LW) and 
 Medium Wave (MW) up to the Short Waves…you may recognise these terms from your normal 
 household radios. 
-Start here…
-Start by pointing your favourite browser to  <a href="http://websdr.ewi.utwente.nl:8901/"></a>
+<h3>Start here</h3>
+Start by pointing your favourite browser to
+<a href="http://websdr.ewi.utwente.nl:8901/" class="btn btn-primary enabled" tabindex="-1" role="button" aria-disabled="true">University of Twente in the Netherlands.</a>
+
 
   You should find a web page that looks like the picture below (once you get past the pictures and text at the top of the 
 page).
@@ -72,9 +75,10 @@ page).
 Although the web page can look a bit confusing when you first arrive, with numerous controls, there 
 are actually only a few key things you need to know to get listening.
 As soon as you load the page you should start hearing the hiss of radio reception…right now you’re 
-probably not tuned into anything. If you don’t hear any noise or if the large ‘waterfall’ area labelled 
+probably not tuned into anything. If you don’t hear any noise or if the large ‘waterfall’  is not moving.
+Click the button displayed towards the top left. It is marked <button>Audio Start Button.</button>
 ❷is not being displayed then look at the control labelled ❶ and select Java instead of HTML5.
-selecting the audio start button.
+
 - or -
 Note that the interface presented to phone 
 users is much simpler than that presented to 
@@ -88,7 +92,7 @@ not only a real time visual picture of signals on the radio spectrum but also th
 history. We can scroll up and down the spectrum by hovering the mouse over the waterfall and left 
 clicking and then moving sideways (either left or right) while holding down the left mouse button. 
 The frequency that you can actually hear is indicated by the little yellow marker at the bottom edge 
-of the waterfall . Similarly, to tune in a signal this can be ‘grabbed’ using the mouse and moved 
+of the waterfall . Similarly, to tune in a signal this can be <q>grabbed</q> using the mouse and moved 
 left and right.
 Fine tuning by using the mouse to move the yellow tuning marker can be tricky so control ❸allows 
 us to type a frequency directly into the control box and provides buttons to tune up (+, ++ & +++) or 
@@ -104,7 +108,7 @@ or AM on your home stereo. For now, we won’t worry about what these mean but t
 examples will simply use AM and LSB.
 Nearly there! One last control before we start…the Waterfall Zoom, ❹, allows us to zoom in on a 
 close-up view of a specific frequency or zoom out to speed up tuning around.
-Tuning in our first station
+<h3>Tuning in our first station</h3>
 Let’s start by tuning in a loud broadcast station. These are commercial stations like the BBC or Radio 
 China International.
 In the tuning control, ❸, type 7300 and hit enter. This will move the yellow tuning indicator to the 
@@ -140,7 +144,7 @@ centred on the transmission (the bright vertical band). The width of the bright 
 waterfall should be similar to the width of the yellow tuning indicator. 
 [Note: if you are not seeing any broad, bright lines like those in the picture above try again during 
 the evening when reception of broadcast stations tends to be better.]
-In the image below we can see two stations; one centred on 7285kHz and one at 7300kHz. The width 
+In the image below we can see two stations; one centred on 7285kHz and one at 7300kHz. <h3>Image needed here</h3> width 
 of the signal in the waterfall depends a little on the transmission…here the station on the left has 
 someone talking and the station on the right is playing music
 Congratulations, you’ve just tuned in your first radio station on a WebSDR! Spend a moment to 
@@ -219,20 +223,11 @@ establishing a contact (and regularly throughout the exchange) the two stations 
 signs to identify themselves (it’s a licencing requirement…broadcast stations have to do the same 
 which is why they regularly play jingles with their station name every 30 minutes or more). But 
 rattling off “OE4HDS” may be difficult for other stations to hear and understand therefore,
-<div class="container">
-  <button id="phoneticButton" class="btn btn-primary">Using important but unusual words like call signs, names and locations you will hear stations spelling 
-    them out using Phonetics</button>
-</div>
 
-<script>
-document.getElementById('phoneticButton').addEventListener('click', function() {
-  window.location.href = 'https://en.wikipedia.org/wiki/NATO_phonetic_alphabet'; // Replace 'https://www.example.com' with your desired URL
-});
-</script>
-Using important but unusual words like call signs, names and locations you will hear stations spelling 
-them out using Phonetics (see <link= https://en.wikipedia.org/wiki/NATO_phonetic_alphabet> for more 
-info).
-  </div>
+  Using important but unusual words like call signs, names and locations you will hear stations spelling 
+    them out using Phonetics
+    <a href="'https://en.wikipedia.org/wiki/NATO_phonetic_alphabet" class="btn btn-primary enabled" tabindex="-2" role="button" aria-disabled="true">NATO_phonetic_alphabet Explained.</a>
+<br>
 “Many thanks for the call old man”
 That’s a bit rude isn’t it, calling him an <q></q>old man<q></q>? Actually, no…this is an endearing way to address 
 someone when you don’t know their name yet. 
@@ -242,10 +237,10 @@ Typically the first things exchanged are ones name and location. If reception is
 operator has an unusual name they will typically spell that out using phonetics. Most Radio 
 Amateurs use NATO Phonetics but you’ll hear lots of random words used when spelling words with 
 phonetics! QTH is another way of saying my location…there are many ‘Q codes’
-<div class="<i class="fab fa-truck-container"></i>
-    (see https://en.wikipedia.org/wiki/Q_code for further info) 
-  </div>
-and they can help when reception is poor or 
+<a href="https://en.wikipedia.org/wiki/Q_code" class="btn btn-primary enabled" tabindex="-2" role="button" aria-disabled="true">
+  Q codes explained.</a>
+<br>
+ Using Q codes can help when reception is poor or 
 when you are speaking to someone who is not a native of your language. Only a small subset of Q
 codes are regularly heard in use. As we’re often in communication with people from outside of our 
 country it can help to qualify ones location by indicating your position in relation to the capital or 
@@ -256,9 +251,8 @@ To help you understand how well you are being heard at the other end Radio Amate
 ‘signal reports’. For voice communications this is usually two numbers (5 and 7 in this example). The 
 first number is Readability (R) and is on a scale from 1 – 5. The second number is signal Strength (S) 
 and is on a scale from 1 – 9. This approach to signal measurement is called RST 
-  <div class="container-fluid web margin_websdr">(See 
-https://en.wikipedia.org/wiki/RST_code for further information) 
-  </div> 
+<a href="https://en.wikipedia.org/wiki/RST_code" class="btn btn-primary enabled" tabindex="-2" role="button" aria-disabled="true">
+  RST codes explained.</a>
 the T or Tone part only applies when using Morse code.
 “I wonder how you’re copying me? Oscar Echo Four Hotel Delta Sierra this is Golf Zero Papa Oscar 
 Tango”
@@ -275,7 +269,9 @@ hearing or about how to find out more about Amateur Radio as a hobby then contac
 g0pot@peanutpower.co.uk or visit www.peanutpower.co.uk.
 In future guides we’ll cover how to listen to data modes and Morse code
 Further information
-  <div class="container-fluid margin_websdr">A useful list of alternative WebSDR websites an be found at http://websdr.org/.
+  A useful list of alternative WebSDR websites an be found
+  <a href="http://websdr.org/" class="btn btn-primary enabled" tabindex="-2" role="button" aria-disabled="true">A useful list of alternative WebSDR websites</a>
+   at http://websdr.org/.
 There are many websites that list broadcast transmission schedules where you can check out what 
 you should be able to hear and look for broadcasts in your own language. See http://www.shortwave.info/ as an example.
 You can find out more about Amateur Radio in the UK from the Radio Society of Great Britain at 
