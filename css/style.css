@@ -52,13 +52,13 @@ The blur radius (higher value creates a more spread out shadow).
 The color of the shadow (using RGBA notation where the last value is the opacity).
 You can adjust these values to achieve the shadow effect you prefer. The example above applies a slightly blurred and slightly transparent shadow with a black color.*/
 
-.with-shadowhead {
+.with-shadow {
   text-shadow: 6px 0px 2px rgba(55, 199, 11, 0.829); /* Adjust the values as needed */
   font-size: 100px; /* Set the font size */
 }
-.with-shadowFB {
+.with-shadowwho {
   text-shadow: 6px 0px 2px rgba(129, 84, 84, 0.5); /* Adjust the values as needed */
-  font-size: 90px; /* Set the font size */
+  font-size: 50px; /* Set the font size */
 }
 
 .line-height { line-height: 1.5;}
@@ -371,11 +371,11 @@ h6 {
 /* Paragraph & Typographic */
 
 p {
-  font-size: 25px;
+  font-size: 25px
   line-height: 28px;
+  line-
   margin-bottom: 25px;
 }
-
 
 .centered {
   text-align: center;
@@ -474,7 +474,13 @@ a:after {
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
-
+   .header_image {
+    background-image: url('../Images/picture/leaders/Baden_Powell.jpg');
+    background-size: cover; /* You can adjust this to control how the image is scaled */
+    background-position: center; /* You can adjust this to control the image's position */
+    /*background-attachment: fixed; /* This makes the background fixed as the content scrolls */
+  }
+}
 #headerwrap {
   margin-top: 0px;
   padding-top: 70px;
@@ -646,12 +652,7 @@ a:after {
 }
 
 /* Section Dividers Backgrounds */
-.header-image {
-  background-image: url('../Images/picture/header.jpg');
-  background-size: cover; /* You can adjust this to control how the image is scaled */
-  background-position: center; /* You can adjust this to control the image's position */
-  /*background-attachment: fixed; /* This makes the background fixed as the content scrolls */
-}
+
 
   .bp-image {
     background-image: url('../Images/picture/leaders/Baden_Powell.jpg');
@@ -660,22 +661,14 @@ a:after {
     /*background-attachment: fixed; /* This makes the background fixed as the content scrolls */
   }
   
-/*.jota_badge_2023 {
-  background-image: url('../Images/picture/jota/jota2023/jota2023med.gif');
-  
- background-size: cover; /* Adjust the image size as needed */
- /* background-repeat: no-repeat; /* Prevent image repetition */
-  /*background-attachment: fixed; /* Optional - make the image fixed 
-}*/
-
 .divider2 {
-  background-image: url("Images/picture/Jacob_Tuning_radio.jpg");
+  background-image: url("../Images/picture/Jacob_Tuning_radio.jpg");
   margin-top: 0px;
 }
 
 .divider3 {
   /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/");
+  background-image: url("Images/picture/" width="500" height="900");
   margin-top: 0px;
 }
 
@@ -2365,64 +2358,56 @@ img.mfp-img {
             }
 
 
-            @media screen and (max-width: 800px) and (orientation: landscape),
-            screen and (max-height: 300px)
-       /**
-        * Remove all paddings around the image on small screen
-        */
-       .mfp-img-mobile .mfp-image-holder {
-         padding-left: 0;
-         padding-right: 0;
-       }
-     
-       .mfp-img-mobile img.mfp-img {
-         padding: 0;
-       }
-     
-       .mfp-img-mobile .mfp-figure:after {
-         top: 0;
-         bottom: 0;
-       }
-     
-       .mfp-img-mobile .mfp-figure small {
-         display: inline;
-         margin-left: 5px;
-       }
-     
-       .mfp-img-mobile .mfp-bottom-bar {
-         background: rgba(0, 0, 0, 0.6);
-         bottom: 0;
-         margin: 0;
-         top: auto;
-         padding: 3px 5px;
-         position: fixed;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-       }
-     
-       .mfp-img-mobile .mfp-bottom-bar:empty {
-         padding: 0;
-       }
-     
-       .mfp-img-mobile .mfp-counter {
-         right: 5px;
-         top: 3px;
-       }
-     
-       .mfp-img-mobile .mfp-close {
-         top: 0;
-         right: 0;
-         width: 35px;
-         height: 35px;
-         line-height: 35px;
-         background: rgba(0, 0, 0, 0.6);
-         position: fixed;
-         text-align: center;
-         padding: 0;
-       }
-     }
-     
+@media screen and (max-width: 800px) and (orientation: landscape),
+  screen and (max-height: 300px) {
+  /**
+       * Remove all paddings around the image on small screen
+       */
+  .mfp-img-mobile .mfp-image-holder {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .mfp-img-mobile img.mfp-img {
+    padding: 0;
+  }
+  .mfp-img-mobile .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+  }
+  .mfp-img-mobile .mfp-figure small {
+    display: inline;
+    margin-left: 5px;
+  }
+  .mfp-img-mobile .mfp-bottom-bar {
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    margin: 0;
+    top: auto;
+    padding: 3px 5px;
+    position: fixed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .mfp-img-mobile .mfp-bottom-bar:empty {
+    padding: 0;
+  }
+  .mfp-img-mobile .mfp-counter {
+    right: 5px;
+    top: 3px;
+  }
+  .mfp-img-mobile .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    text-align: center;
+    padding: 0;
+  }
+}
 
 @media all and (max-width: 900px) {
   .mfp-arrow {
