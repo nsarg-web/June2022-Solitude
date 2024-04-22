@@ -27,75 +27,189 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/jquery-1.9.1.min.js"></script>
 <!--<script src="js/bootstrap.min.js"></script>-->
-
-
   </head>
   <body>
-    <div class="navbar navbar-btn">
-      <a href="#home">
-      </a>
-      <a href="solitude/noaa/" class="smoothScroll">NOAA Weather Images
-      </a>
-      <a href="solitude/noaa/" class="smoothScroll">Activity Badges
-      </a>
-    </div>
-        
-<!-- ==== SITE TITLE ==== -->
-<div id="headerwrap">
-  <header class="clearfix">
-    <h2 class="animated bounceIn with-shadow purple">Northampton Scout Amateur Radio Group
-    </h2>
-    <h3 class="green row">This site is still under development. It is a learn as you go project,<br> 
-      As any project, it is taking a lot longer than expected. The last updated date is displayed in the footer of the page.
-    </h2>
-  </header>
-   
-        <div class="box row">
-          </div>
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">MegaMenu</a>
+        </div>
     
-             <a href="https://outlook.live.com/owa/calendar/63bf5110-e673-4e55-bf2d-12997e678fcb/79e03142-f0e3-4d75-8734-9961ba12c9b3/cid-B6C8E57F0967A84D/index.html" 
-            class="btn homebtn smoothScroll">
-            View Calendar,
-          
+    
+        <div class="collapse navbar-collapse js-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown mega-dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collection <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+    
+              <ul class="dropdown-menu mega-dropdown-menu row">
+                <li class="col-sm-3">
+                  <ul>
+                    <li class="dropdown-header">New in Stores</li>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
+                          <h4><small>Summer dress floral prints</small></h4>
+                          <button class="btn btn-primary" type="button">49,99 €</button>
+                          <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
+                        </div>
+                        <!-- End Item -->
+                        <div class="item">
+                          <a href="#"><img src="http://placehold.it/254x150/ef5e55/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
+                          <h4><small>Gold sandals with shiny touch</small></h4>
+                          <button class="btn btn-primary" type="button">9,99 €</button>
+                          <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
+                        </div>
+                        <!-- End Item -->
+                        <div class="item">
+                          <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
+                          <h4><small>Denin jacket stamped</small></h4>
+                          <button class="btn btn-primary" type="button">49,99 €</button>
+                          <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
+                        </div>
+                        <!-- End Item -->
+                      </div>
+                      <!-- End Carousel Inner -->
+                    </div>
+                    <!-- /.carousel -->
+                    <li class="divider"></li>
+                    <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                  </ul>
+                </li>
+                <li class="col-sm-3">
+                  <ul>
+                    <li class="dropdown-header">Dresses</li>
+                    <li><a href="#">Unique Features</a></li>
+                    <li><a href="#">Image Responsive</a></li>
+                    <li><a href="#">Auto Carousel</a></li>
+                    <li><a href="#">Newsletter Form</a></li>
+                    <li><a href="#">Four columns</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Tops</li>
+                    <li><a href="#">Good Typography</a></li>
+                  </ul>
+                </li>
+                <li class="col-sm-3">
+                  <ul>
+                    <li class="dropdown-header">Jackets</li>
+                    <li><a href="#">Easy to customize</a></li>
+                    <li><a href="#">Glyphicons</a></li>
+                    <li><a href="#">Pull Right Elements</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Pants</li>
+                    <li><a href="#">Coloured Headers</a></li>
+                    <li><a href="#">Primary Buttons & Default</a></li>
+                    <li><a href="#">Calls to action</a></li>
+                  </ul>
+                </li>
+                <li class="col-sm-3">
+                  <ul>
+                    <li class="dropdown-header">Accessories</li>
+                    <li><a href="#">Default Navbar</a></li>
+                    <li><a href="#">Lovely Fonts</a></li>
+                    <li><a href="#">Responsive Dropdown </a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Newsletter</li>
+                    <form class="form" role="form">
+                      <div class="form-group">
+                        <label class="sr-only" for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                    </form>
+                  </ul>
+                </li>
+              </ul>
+    
+            </li>
+          </ul>
+    
+        </div>
+        <!-- /.nav-collapse -->
+      </nav>
+    </div>
+
+
+
+    <div class="navbar navbar-btn">
+      <a href="noaa/" class="smoothScroll">NOAA Weather Images
+      </a>
+      <a href="websdr.html" class="smoothScroll">Introduction to WebSDR </a>
+ 
+    </div>
+
+    
+   <!-- ==== SITE TITLE ==== -->
+<div id="headerwrap">
+  
+    <h1 class="animated bounceIn  purple text-center ">Northampton Scout Amateur Radio Group
+      <tbody> <br>         
+        <td class="table-col1 gif-container">
+          <img src="/Images/g0nds.gif"width="250" height="75" alt="G0nds.gif">
+        </td>
+        <td class="table-col2 text-center animated bounceIn green">GB4NDS</td>
+        <td class="table-col3 gif-container">
+            <!-- Replace the src attribute with your gif URL -->
+            <img src="/Images/g6nds.gif" width="250" height="75" alt="G6nds gif">
+        </td>
+    </tr>
+</tbody>
+
+    </h1>
+               
+    <h3 class="green row text-center">This site is still under development. It is a learn as you go project,<br> 
+      As any project, it is taking a lot longer than expected. The last updated date is displayed in the footer of the page .
+    </h3>
+    <br>
+  </header>
+</div>
+<div class="text-center">   
+<a href="https://outlook.live.com/owa/calendar/63bf5110-e673-4e55-bf2d-12997e678fcb/79e03142-f0e3-4d75-8734-9961ba12c9b3/cid-B6C8E57F0967A84D/index.html" 
+            class="btn homebtn smoothScroll text-center">
+            View Calendar          
           <i class="el-icon-calendar homeicon">
-          </i>
-            </a>
-        
+          </i></a>      
           <div class="bg-info">
-            <h3 class="bg-warning ">Click the View Calendar to see Meeting dates and other group activities
-              <div class="alert alert-primary" role="alert">
-                <h3>There is no meeting in SEPTEMBER 2023</h3>
-            </div>
+            <h3 class="bg-warning text-center">Click <q>View Calendar to see Meeting dates and other group activities</q></h3>
+              <div class="alert alert-primary text-center" role="alert">
+                <h3>Our next meeting is Saturday 20th April 2024.<br>
+                </h3>
+              </div>
           </div>
         </div>
+        
 
-<div class="greywrap rw">
+
 <div class="container" id="about">
-  <div class="row">
+  <div class="row custom-bg">
     <div class="col-md-4 col-sm-4 col-xs-6">
-      <div class="callout">
-        <div class="col-md-9 fade-up service-info">
+        <div class="callout">
+            <div class="col-md-9 fade-up service-info">
+          
           <!-- Content for the first column -->
           <h2 class="purple text-center">66th Jamboree on the Air -
             66 years connecting Scouts!
            </h2>
-          <h4 class="cyan text-center">20th - 22nd
+           <div class="row">
+          <h2 class="text-center">20th - 22nd
             October 2023 
-          </h4>
+          </h2>
           <h4 class="purple">
-           The station this year will be located in
-            Knight's Lodge at Overstoine Scout Activity Centre. We have an
-            exciting programme of Radio Scouting activities at Jamboree On
-            The Air and Jamboree on the Internet this year. This includes a
-            live video feed with other Scouts around the world, receiving images
-            from weather satellites and contacting other Jamboree stations
-            using HF voice communications.
-            Many other aspects of the amazing world of radio communications can
-            be experienced. If you or your group would like to take part
-            please contact us by clicking the button below.
+            The station this year took place in Knight's Lodge at Overstone Scout Activity Centre. 
+            We had an exciting programme of Radio Scouting activities at Jamboree On The Air and Jamboree on the Internet 
+            this year. 
+            This included a live video feed with other Scouts around the world, receiving images from weather satellites 
+            and contacting other Jamboree stations using HF voice communications. Scouts took part in the many other aspects 
+            of the amazing world of radio communications..
           </h4>
-            <a class="btn btn-success" href="mailto:nsarg81@outlook.com">JOTA Bookings
-            </a>
+                      
+           </div>
         </div>
       </div>
     </div>
@@ -110,7 +224,9 @@
           <h4 class="green">
             Jamboree on the Air is the highlight of the Radio Scouting calendar, when Scouts have the opportunity to share experiences and exchange ideas 
             with some of the 1.5 million young people taking part. This is truly the biggest Scout Jamboree in the world!
-          </h4>
+          
+  <img class="img fade-down"src="/Images/picture/jota/jota2023med.gif">
+  
         </div>
       </div>
     </div>
@@ -120,13 +236,11 @@
       <div class="callout">
         <div class="col-md-9 fade-up service-info">
           <!-- Content for the third column -->
-          <h2 class="purple text-center">Having fun at JOTA 2022
+          <h2 class="purple text-center">Having fun at JOTA 2023
            </h2>
           <h4 class="purple">
-            Another great weekend was had at Overstone Scout Ground for the 65th Jamboree on the air. Scouts from across Northamptonshire gathered to camp and undertake a weekend of activities alongside a fully operational Amateur radio Station working on HF (Cobweb, G5RV and Longwire Antenna) VHF / UHF (Co-Linear and Discone) and Satellites (QFH Antenna) as well as Skype allowing contacts around the world and locally. Using SSB, Morse, FT8 and Digital modes.
-            A highlight of the weekend was being able to work the GB100BBC special event station to commemorate 100 years of the BBC. Scouts were able to practice their French, German and Spanish as they had their first taste of the hobby.
-            We are very grateful to our friends at <a href="https://www.amphenol.com/" class="btn btn-success">amphenol</a> for their continued support and sponsorship with the event.
-            <img class="img team-image img-responsive" src="Images/picture/jota/jota2022/80_40_station.jpg" alt="80/40 Meters Station 2022">
+            This year we had a great weekend at Overstone Scout Campsite for the 66th Jamboree On The air. Scouts from across Northampton gathered to camp and take part in a weekend of activities linked to NSARG Amateur radio station GB4NDS operating on HF (Cobweb, G5RV and Longwire Antenna) VHF / UHF (Co-Linear and Discone) and Satellites (QFH Antenna) plus Skype - allowing contacts around the world and locally - using SSB, Morse, FT8, DMR and Digital modes. It was wonderful for the young people to make Scouting links across the globe during this truly 
+            International Jamboree. 
           </h4>
         </div>
       </div>
@@ -141,8 +255,8 @@
 <!-- ==== WHO we are ==== -->
 <div class="container" id="who">
 <div class="row white">
-  <h1 class="green text-center">Who we are
-  </h1>
+  <h2 class="animated bounceIn with-shadowhead purple text-center">Who we are
+  </h2>
   <div class="fade-up col-md-6">
     <h4 class="purple"><br>
    The Northampton Scout Amateur Radio Group had its first meeting in 1981 and spent the first few years visiting local Scout Troops and running Scout Communicator badge courses 
@@ -169,8 +283,10 @@ The only trouble was we had to dismantle it, move it from the other side of town
   <div class="container">
     <h2 class="fade-down">Using a band guide helps new listeners find and understand the various modes of transmission used in amateur Radio
     </h2>
-<p class="fade-up">
-</p>
+    <p class="fade-up">
+    </p>
+  </div>
+  <br>
 </section>
 <!-- SECTION DIVIDER2 END -->
 
@@ -178,11 +294,15 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <!-- section -->
 <!-- ==== TEAM Leaders ==== -->
 <!-- Formats 3 Columns-->
-<div class="container section">
+
+
+<div class="container section bp-image">
+  <br>
   <div class="row white justify-content-center text-center">
     <!--#headerwrap p { CONTROLS the text size and colour-->
-    <h2 class="purple fade-down">MEET THE LEADERS
-    </h2>
+      
+    <h2 class="animated bounceIn with-shadow purple text-center">MEET THE LEADERS
+    </h2> 
 <hr class="fade-down title-mb">
 </div>
 <!-- Each Leader start-->
@@ -191,10 +311,10 @@ The only trouble was we had to dismantle it, move it from the other side of town
 `   <img class="img team-image mx-auto" src="Images/picture/leaders/Ian.png" alt="Ian G8WPU"> <!-- Added 'mx-auto' class -->
   </div>
       <div class="team-info">
-<h4 class="green text-center">Ian G8WPU
+<h4 class="text-white text-center">Ian G8WPU
 </h4>
 <p>
-  Ian formed the radio group in 1981.
+ 
 </p>
       </div>
 </div>  
@@ -205,10 +325,10 @@ The only trouble was we had to dismantle it, move it from the other side of town
     <img class="img team-image mx-auto" src="Images/picture/leaders/Karrl.png" alt="Karrl G7AAY">
   </div>
     <div class="team-info">
-      <h4 class="green text-center">Karrl G7AAY
+      <h4 class="text-white text-center">Karrl G7AAY
       </h4>
         <p>
-    Joined the radio group as a 12 year Old Scout in 1982 after completing the Scout Communicator Badge Course SComm002.
+   
         </p>
     </div>
 </div>
@@ -220,9 +340,9 @@ The only trouble was we had to dismantle it, move it from the other side of town
   <img class="img team-image mx-auto" src="Images/picture/leaders/Mike.png" alt="Mike G8HLU">
 </div>
 <div class="team-info">
-  <h4 class="green text-center">Mike G8HLU
+  <h4 class="text-white text-center">Mike G8HLU
   </h4>
-  <p>Joined the radio group in
+  <p>
   </p>
 </div>
 </div>
@@ -238,9 +358,9 @@ The only trouble was we had to dismantle it, move it from the other side of town
           <img class="img team-image mx-auto" src="Images/picture/leaders/Peter_LYC.png" alt="Pete G4LYC">
       </div>
         <div class="team-info">
-          <h4 class="purple text-center">Pete G4LYC
+          <h4 class="text-white text-center">Pete G4LYC
           </h4>
-            <p>Joined the radio group in
+            <p>
             </p>
         </div>
       </div>
@@ -249,12 +369,12 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <!--Start Peter G6AXH-->
 <div class="col-md-4 fade-down text-center"> <!-- Added 'text-center' class -->
   <div>
-    <img class="img team-image mx-auto"src="Images/picture/leaders/Peter_g6axh.jpg" width="190" height="200" alt="Peter G6AXH">
+    <img class="img team-image mx-auto" src="Images/picture/leaders/Peter_g6axh.jpg" width="190" height="200" alt="Peter G6AXH">
   </div>
       <div class="team-info">
-        <h4 class="purple text-center">Peter G6AXH
+        <h4 class="text-white text-center">Peter G6AXH
         </h4>
-          <p>Joined the radio group in
+          <p>
           </p>
       </div>
 </div>
@@ -265,8 +385,8 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <img class="img team-image" src="Images/picture/leaders/barry.png" alt="Barry M7BDR">
 </div>
 <div class="team-info">
-<h4 class="purple text-center">Barry M7BDR</h4>
-<p>Joined the radio group in</p>
+<h4 class="text-white text-center">Barry M7BDR</h4>
+<p></p>
 </div>
 </div>
 <!-- End of Leader Barry-->
@@ -279,8 +399,8 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <img class="img team-image" src="Images/picture/leaders/Allan.png" alt="Allan M1CDP">
 </div>
 <div class="team-info">
-<h4 class="green text-center">Allan M1CDP</h4>
-<p>Joined the radio group in</p>
+<h4 class="text-white text-center">Allan M1CDP</h4>
+<p></p>
 </div>
 </div>
 <!-- End of Allan-->
@@ -290,19 +410,19 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <img class="img team-image" src="Images/picture/leaders/James.png" alt="James M7HJT">
 </div>
 <div class="team-info">
-<h4 class="green text-center">James M7HJT</h4>
-<p>Joined the radio group in</p>
+<h4 class="text-white text-center">James M7HJT</h4>
+<p></p>
 </div>
 </div>
 <!-- End of James-->
 <!--Start Rob-->
 <div class="col-md-4 fade-down text-center">
 <div>
-<img class="img team-image" src="Images/picture/leaders/rob1.jpg" width="190" height="200"alt="Rob M7RNM">
+<img class="img team-image" src="Images/picture/leaders/rob1.jpg" width="190" height="200" alt="Rob M7RNM">
 </div>
 <div class="team-info">
-<h4 class="green text-center">Rob M7RNM</h4>
-<p>Joined the radio group in</p>
+<h4 class="text-white text-center">Rob M7RNM</h4>
+<p></p>
 </div>
 </div>
 <div class="row white justify-content-center text-center"></div>  <!-- Starts a new row and is required before the leader of each row only-->
@@ -312,8 +432,9 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <img class="img team-image" src="Images/picture/leaders/Bob.png" alt="Bob HAF">
 </div>
 <div class="team-info">
-<h4 class="purple text-center">Bob M0HAF</h4>
-<p>Joined the radio group in</p>
+<h4 class="text-white text-center">Bob M0HAF</h4>
+<p></p>
+</div>
 </div>
 </div>
 </div>
@@ -321,14 +442,14 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <!-- container -->
 
 <!-- ==== GREYWRAP ==== -->
-<div class="greywrap">
-<div class="container">
+<div>
+<div class="container"><br><br>
   <div class="row">
     <div class="col-md-6 centered fade-up">
       <img class="img-responsive" src="Images/picture/cse.jpg" alt="Scouts using PMR 446 radios">
     </div>
     <div class="col-md-6 fade-down">
-      <h2>Would you like to be part of this expanding hobby, or find out more?</h2>
+      <h4>Would you like to be part of this expanding hobby, or find out more?</h4>
       <p>Come along to one of our regular monthly meetings,
         Check out our Facebook group page. 
         Send us an Email
@@ -350,108 +471,87 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <!-- ==== SECTION DIVIDER3 -->
 <section class="section-divider textdivider divider3">
 <div class="container">
-  <h1 class="purple">RADIO SCOUTING WILL HELP YOU GROW</h1>
+  <h2 class="animated bounceIn  purple text-center">RADIO SCOUTING WILL HELP YOU GROW</h2>
   <hr>
   <p class="fade-up purple">
     Radio Scouting is a unique combination of amateur radio with the Scouting programme. Scouts study radio communication and electronics among other things and can earn a number of badges like the Communicator Activity Badge.
   </p>
 </div>
-<title>Jamboree Badges</title>
-
-<!--<div class="container mt-5">
-<h2 class="text-center mb-4"></h2>
-<div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-<div class="carousel-inner">
-  <div class="carousel-item active">
-    <img src="Images/picture/jota/jota13fun.jpg" class="d-block w-30" alt="Image 1">
-  </div>
-  <div class="carousel-item">
-    <img src="Images/picture/jota/jota2018med.gif" class="d-block w-30" alt="Image 2">
-  </div>
-  <div class="carousel-item">
-    <img src="Images/picture/jota/jota2021med.gif" class="d-block w-30" alt="Image 3">
-  </div>
-  <div class="carousel-item">
-    <img src="Images/picture/jota/jota2022/jota2022med.png" class="d-block w-30" alt="Image 4">
-  </div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="visually-hidden">Next</span>
-</button>
-</div>-->
 <!-- ==== BLOG ====-->
 <div class="container" id="blog">
   <br>
   <div class="row white">
-    <h1 class="fade-down centered">News and Activities</h1>
+    <h2 class="animated bounceIn  green text-center with-shadow">News and Activities</h2>
     <hr class="fade-down title-mb">
   </div>
    <!-- Content for the left column goes here -->
 <div class="column">
-    <h2 class="slideInLeft green">GB4NDS</h2>
-            <blog-bg h4> During our monthly meetings in 2023 The station will be operating using a Special Event callsign GB4NDS.</blog-bg>
+    <h2 class="slideInLeft green">Scout Communicator badge</h2>
+            <h4>One of our young members recently completed the requirments for the  Scout Communicator Badge.</h4>
+            <h4>He was presented with his badge at our February meeting.</h4>
+            <img class="img fade-down" src="Images/picture/2024/scom20241cogenhoess.jpg" width="250" height="1" alt="Scomm badge"><br>
             <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
           </div>
           <!-- Content for the Right column goes here -->
           <div class="column">
           <h2 class="slideInLeft green">Congratulations</h2>
-            <blog-bg h4> During Covid members of the group completed the Essex Ham Online Foundation Course and passed.<br>
+            <h4> During Covid members of the group completed the Essex Ham Online Foundation Course and passed.<br>
               Rob M7RNM<br>
               James M7HJT<br>
               Jacob M7***<br>
               Alex   M7***
-            </blog-bg h4>
+            </h4>
               <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
           </div>          
            <!-- Content for the left column goes here -->
           <div class="column">
            <h2 class="slideInLeft purple">DMR Talkgroup</h2>
-              <blog-bg h4> If you have access to DMR TGIF Network.
+              <h4> If you have access to DMR TGIF Network.
                 Please feel free to join us on 36222
-              </blog-bg h4>
+              </h4>
               <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
           </div>  
           <div class="column">
-            <h2 class="slideInLeft purple">JOTA 2022 Introduction</h2>
-              <blog-bg h4> All Scouts that visited were given a brief introduction, before splitting into small groups. In the smaller groups, they 
+            <h2 class="slideInLeft purple">JOTA 2023 Introduction</h2>
+              <h4> All Scouts that visited were given a brief introduction, before splitting into small groups. In the smaller groups, they 
                 visited each of the different activities. 40/80 Meters station. 10, 15 and 20 Meter SSB and FT8 finally our two-meter station where they could pass greetings messages
                 <img class="img fade-down" src="Images/picture/jota/jota2022/intro.jpg" alt="Jota 2022 intro"><br>
-                <img class="img fade-down" src="Images/neckieb.gif" alt="necker"></blog-bg h4>
+                <img class="img fade-down" src="Images/neckieb.gif" alt="necker">
+              </h4>
             </div>         
            <!-- Left Colum-->
+           <div class="container section jota_badge_2023">
            <div class="column">
+            <div class="container section"></div>
             <h2 class="slideInLeft green">JOTA 2023</h2>
+            <div class="row custom-bg1"></div>
               <h4> 
-                The station this year will be located in Knight's Lodge at Overstone Scout Activity Centre. We have an exciting programme of Radio Scouting activities at Jamboree On The Air and Jamboree on the Internet this year. This includes a live video feed with other Scouts around the world, receiving images from weather satellites and contacting other Jamboree stations using HF voice communications. Many other aspects of the amazing world of radio communications can be experienced. </h4>
-                
+                The station was located in the Knight's Lodge at Overstone Scout Activity Centre. We have an 
+                exciting programme of Radio Scouting activities at Jamboree On The Air and Jamboree on the Internet 
+                this year. This includes a live video feed with other Scouts around the world, receiving images from weather 
+                satellites and contacting other Jamboree stations using HF voice communications. Many other aspects 
+                of the amazing world of radio communications can be experienced. </h4>
+               
                 <img class="img fade-down" src="Images/neckieb.gif" alt="necker"></h4>
             </div>    </div>      </div>   
-<div class="column">
+<!-- <div class="column">
    <!-- Content for the right column goes here -->
-  
-
-<!--End of BLOGG-->
-     <!-- Donations section -->
-   <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1>Donations</h1>
-            <h4 blog-bg>
+  <!--End of BLOGG-->
+     <!-- Donations section -->           
+            <h1 class="margin_websdr text-center purple">Donations</h1>
+            <h4 class="blog-bg">
                 Many thanks to Ron Pass.
-                Ron has recently donated a TS130 HF Transceiver, an ATU and PowerSupply.
-            </h4>
-            <h4>
-                Two Laptops, both of which have been setup for Logging, Data modes using SDR receivers.
+                Ron donated a TS130 HF Transceiver, an ATU and PowerSupply
+                and two Laptops, both of which have been setup for Logging, Data modes using SDR receivers.
                 The NOAA weather images On this site were received using one of the laptops.
             </h4>
-        </div>
-    </div>
-</div> 
+           </div>
+       </div>
+        
+    
+</div>
+</section>
+ 
 <!-- ==== SECTION Station Location ==== -->
 <section class="section-divider6 textdivider6 text-center">
 <div class="container" id="location">
@@ -476,7 +576,7 @@ The only trouble was we had to dismantle it, move it from the other side of town
   <br>
   <h1 class="fade-down green text-center">THANKS FOR VISITING US</h1>
 </div>
-  <div class="row justify-content-center text-center"> <!-- Center the flag counter horizontally -->
+  <div class="row text-center"> <!-- Center the flag counter horizontally -->
     <a href="https://info.flagcounter.com/Gkvo">
       <img src="https://s01.flagcounter.com/count2/Gkvo/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_100/viewers_0/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter">
     </a>
@@ -486,50 +586,41 @@ The only trouble was we had to dismantle it, move it from the other side of town
     <!-- col -->
   </div>
 </div>    
- <div id="footerwrap">
-  <div class="container">
+ 
+
+<div class="container">
+  <div class="text-center">
     <i>
-      <a href="https://www.facebook.com/groups/nsarg" class="btn btn-success">
-      </a>
-      <h2 class=white>Join our facebook page
-      </h2>
-    
-    
-        <footer>
-          <h2>Site Last Updated: <span id="lastUpdatedDate"></span>
-          </h2>
-      <p>Version: <span id="versionNumber">1.0</span>
-      </p>
+      <h3 class="with-shadowfb fa-border btn-success">
+        <a href="https://www.facebook.com/groups/nsarg">Join our Facebook page</a>
+      </h3>
     </i>
-      <script>
+  </div>
+</div>
+
+<footer>
+  <h2 class="text-center">Site Last Updated: <span id="lastUpdatedDate"></span></h2>
+  <h2 class="text-center">Version: <span id="versionNumber"></span></p>
+</footer> 
+
+       
+    <script>
         document.addEventListener("DOMContentLoaded", function() {
-        // Get the elements where you want to display the last updated date and version number
-        const lastUpdatedElement = document.getElementById("lastUpdatedDate");
-        const versionNumberElement = document.getElementById("versionNumber");
-
-        // Define the current date
-        const currentDate = new Date();
-
-        // Format the date as dd/mm/yyyy
-        const formattedDate = `${currentDate.getDate().toString().padStart(2, "0")}/${(currentDate.getMonth() + 1).toString().padStart(2, "0")}/${currentDate.getFullYear()}`;
-
-        // Update the content of the elements with the formatted date and version number
-        lastUpdatedElement.textContent = formattedDate;
-        versionNumberElement.textContent = "1.0.04"; // Change this to your desired version number
-    });
-      </script>
-  </div></div>
-
-  
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/bootstrap.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/init.js"></script>
-</footer>
-</html>
-
-
+            // Get the elements where you want to display the last updated date and version number
+            const lastUpdatedElement = document.getElementById("lastUpdatedDate");
+            const versionNumberElement = document.getElementById("versionNumber");
+    
+            // Define the manually set last updated date and version number
+            const manuallySetLastUpdatedDate = "16th March 2024"; // Format: dd/mm/yyyy
+            const manuallySetVersionNumber = "1.0.28"; // Change this to your desired version number
+    
+            // Update the content of the elements with the manually set values
+            lastUpdatedElement.textContent = manuallySetLastUpdatedDate;
+            versionNumberElement.textContent = manuallySetVersionNumber;
+        });
+    </script>  
+</div> 
+</div>
+</section>
 </body>
 </html>
