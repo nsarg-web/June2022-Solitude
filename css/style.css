@@ -32,7 +32,6 @@
   margin: 50px;
 }
 
-
   .card-registration .select-arrow {
   top: 13px;
   }
@@ -41,8 +40,33 @@
   margin-left: 5rem; /* Adjust the value as needed */
 }
 
+.card-height,
+card-width 
 
+{height: auto;
+column-width: auto;}
 
+.card-body{
+  font-family: nunito-sans;
+  font-size: 12pt;
+  padding: 10px;
+  border-style: double;
+}
+
+.card-title{
+  font: size 15px;
+  
+}
+.card-img{
+  height:auto;
+  width:120px;
+}
+
+.jota2023logo {
+  background-image: url(/Images/picture/jota/jota2023med.gif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 
 /*  In this example, the text-shadow property takes four values:
 
@@ -373,8 +397,7 @@ h6 {
 p {
   font-size: 25px
   line-height: 28px;
-  line-
-  margin-bottom: 25px;
+  line-margin-bottom: 25px;
 }
 
 .centered {
@@ -480,7 +503,7 @@ a:after {
     background-position: center; /* You can adjust this to control the image's position */
     /*background-attachment: fixed; /* This makes the background fixed as the content scrolls */
   }
-}
+
 #headerwrap {
   margin-top: 0px;
   padding-top: 70px;
@@ -668,8 +691,8 @@ a:after {
 
 .divider3 {
   /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/" width="500" height="900");
-  margin-top: 0px;
+  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg" width="500" height="900");
+ 
 }
 
 .divider4 {
@@ -2342,12 +2365,18 @@ img.mfp-img {
             display: block;
             margin: 0 auto;
         }
+        .img80 {
+          max-width: 80%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+      }
 
         .fade-down {
             animation: fadeDown 1s ease-in-out;
         }
 
-        @keyframes fadeDown {
+        @keyframes fadeDown
             from {
                 opacity: 0;
                 transform: translateY(-20px);
@@ -2359,7 +2388,7 @@ img.mfp-img {
 
 
 @media screen and (max-width: 800px) and (orientation: landscape),
-  screen and (max-height: 300px) {
+  screen and (max-height: 300px)
   /**
        * Remove all paddings around the image on small screen
        */
@@ -2407,7 +2436,7 @@ img.mfp-img {
     text-align: center;
     padding: 0;
   }
-}
+
 
 @media all and (max-width: 900px) {
   .mfp-arrow {
