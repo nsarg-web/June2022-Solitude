@@ -10,13 +10,14 @@
     <meta name="keywords" content="Radio Scouting NSARG JOTA JOTI GB4NDS G6NDS Amateur radio Northampton scout Amateur  daily NOAA images">
     <meta name="author" content="Karrl Richardson G7AAY">
     <title>NSARG</title>  
-    <link href="css/bootstrap.css" rel="stylesheet">
+   <!----> <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/elusive-webfont.css">
    <link href="css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=NunitoSans-Regular:300,400,700,300italic,400italic">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,18 +27,22 @@
 <script src="js/bootstrap.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/jquery-1.9.1.min.js"></script>
-<!--<script src="js/bootstrap.min.js"></script>-->
   </head>
   <body>
+    <!--------------------------------------------------------------------------------------------
+    ---------------------------  Copy this section to reuse Nav bar on other pages----------------
+    ---------------------------------------------------------------------------------------------->
     <div class="navbar navbar-btn">
       <a href="noaa/" class="smoothScroll">NOAA Weather Images
       </a>
-      <a href="websdr.html" class="smoothScroll">Introduction to WebSDR </a>
- 
+      <a href="websdr.html" class="smoothScroll">Introduction to WebSDR </a> 
     </div>
+    <!--------------------------------------------------------------------------------------------
+    ---------------------------  Copy this section to reuse Nav bar on other pages----------------
+    ---------------------------------------------------------------------------------------------->
    <!-- ==== SITE TITLE ==== -->
   
-          <div id="headerwrap" class="container d-flex justify-content-center align-items-center">
+          <div id="headerwrap" class="container justify-content-center align-items-center">
             <h1 class="animated bounceIn purple text-center">Northampton Scout Amateur Radio Group</h1>
             <div class="row">
               <div class="col-md-4 col-sm-12">
@@ -55,7 +60,54 @@
                 </div>
               </div>
             </div>
-          </div>               
+          </div> 
+          
+          <!--try out navbar remove if it does not work -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Mega Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown mega-menu">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Mega Menu
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <h6 class="dropdown-header">Section 1</h6>
+                        <a class="dropdown-item" href="#">Submenu Item 1</a>
+                        <a class="dropdown-item" href="#">Submenu Item 2</a>
+                        <a class="dropdown-item" href="#">Submenu Item 3</a>
+                      </div>
+                      <div class="col-md-3">
+                        <h6 class="dropdown-header">Section 2</h6>
+                        <a class="dropdown-item" href="#">Submenu Item 4</a>
+                        <a class="dropdown-item" href="#">Submenu Item 5</a>
+                        <a class="dropdown-item" href="#">Submenu Item 6</a>
+                      </div>
+                      <div class="col-md-3">
+                        <h6 class="dropdown-header">Section 3</h6>
+                        <a class="dropdown-item" href="#">Submenu Item 7</a>
+                        <a class="dropdown-item" href="#">Submenu Item 8</a>
+                        <a class="dropdown-item" href="#">Submenu Item 9</a>
+                      </div>
+                      <div class="col-md-3">
+                        <h6 class="dropdown-header">Section 4</h6>
+                        <a class="dropdown-item" href="#">Submenu Item 10</a>
+                        <a class="dropdown-item" href="#">Submenu Item 11</a>
+                        <a class="dropdown-item" href="#">Submenu Item 12</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- end of tryout navbar-->
+          
     <h3 class="green row text-center">This site is still under development. It is a learn as you go project,<br> 
       As any project, it is taking a lot longer than expected. The last updated date is displayed in the footer of the page .
     </h3>
@@ -69,7 +121,7 @@
           </i></a>      
           <div class="bg-info">
             <h3 class="bg-warning text-center">Click <q>View Calendar</q> to see Meeting dates and other group activities</h3>
-              <div class="alert alert-primary text-center" role="alert">
+              <div class="alert text-center" role="alert">
                 <h3>Our next meeting is Saturday 18th May 2024.<br>
                 </h3>
               </div>
@@ -80,14 +132,14 @@
     <!-- Column 1 -->
     <div class="col-md-4 col-sm-6">
       <div class="card ">
-        <div class="card-body  ">
+        <div class="card-body">
           <!-- Content for the first column -->
-          <h2 class="purple text-center">66th Jamboree on the Air - 66 years connecting Scouts!</h2>
+          <h2 class="purple text-center ">66th Jamboree on the Air - 66 years connecting Scouts!</h2>
           <h2 class="text-center">20th - 22nd October 2023</h2>
           <h4 class="purple">
             The station this year took place in Knight's Lodge at Overstone Scout Activity Centre. We had an exciting programme of Radio Scouting activities at Jamboree On The Air and Jamboree on the Internet this year. This included a live video feed with other Scouts around the world, receiving images from weather satellites and contacting other Jamboree stations using HF voice communications. Scouts took part in the many other aspects of the amazing world of radio communications.
           </h4>
-          <img class="img80 team-image image-res" src="Images/picture/jota/jota2023/jota66.png" alt="Jota_badge_2023">
+          <img class="img80" src="Images/picture/jota/jota2023/jota66.png" alt="Jota_badge_2023">
         </div>
         
       </div>
@@ -116,7 +168,7 @@
         <div class="card-body">
           <!-- Content for the third column -->
           <h2 class="purple text-center">Having fun at JOTA 2023</h2>
-          <h4 class="purple">
+          <h4>
             This year we had a great weekend at Overstone Scout Campsite for the 66th Jamboree On The air. Scouts from across Northampton gathered to camp and take part in a weekend of activities linked to NSARG Amateur radio station GB4NDS operating on HF (Cobweb, G5RV and Longwire Antenna) VHF / UHF (Co-Linear and Discone) and Satellites (QFH Antenna) plus Skype - allowing contacts around the world and locally - using SSB, Morse, FT8, DMR and Digital modes. It was wonderful for the young people to make Scouting links across the globe during this truly International Jamboree.
           </h4>
         </div>
@@ -135,7 +187,7 @@
   <h2 class="animated bounceIn with-shadowhead purple text-center">Who we are
   </h2>
   <div class="fade-up col-md-6">
-    <h4 class="purple"><br>
+    <h4><br>
    The Northampton Scout Amateur Radio Group had its first meeting in 1981 and spent the first few years visiting local Scout Troops and running Scout Communicator badge courses 
    from a local School where the caretaker was a very active short wave listener.
 <br>
@@ -179,9 +231,9 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <!-- Formats 3 Columns-->
 
 
-<div class="container section bp-image">
+<div class="container ol-md-12 section bp-image">
   <br>
-  <div class="row white justify-content-center text-center">
+  <div class="row ol-md-12 white justify-content-center text-center">
     <!--#headerwrap p { CONTROLS the text size and colour-->
       
     <h2 class="animated bounceIn with-shadow purple text-center">MEET THE LEADERS
@@ -351,7 +403,7 @@ The only trouble was we had to dismantle it, move it from the other side of town
 <!-- greywrap -->
 
 <!-- ==== SECTION DIVIDER3 -->
-<section class="section-divider textdivider divider3">
+<section class="section-divider">
 <div class="container">
   <h2 class="animated bounceIn  purple text-center">RADIO SCOUTING WILL HELP YOU GROW</h2>
   <hr>
@@ -421,11 +473,11 @@ The only trouble was we had to dismantle it, move it from the other side of town
   <!--End of BLOGG-->
      <!-- Donations section -->           
             <h2 class="margin_websdr text-center purple">Donations</h2>
-            <div class="blog-bg">
+            <div class="margin_websdr text-center"><h4>
                 Many thanks to Ron Pass.
                 Ron donated a TS130 HF Transceiver, an ATU and PowerSupply
                 and two Laptops, both of which have been setup for Logging, Data modes using SDR receivers.
-                The NOAA weather images On this site were received using one of the laptops.
+                The NOAA weather images On this site were received using one of the laptops.</h4>
             </div>
 
 </section>
@@ -499,6 +551,10 @@ The only trouble was we had to dismantle it, move it from the other side of town
         });
     </script>  
 </div>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>
