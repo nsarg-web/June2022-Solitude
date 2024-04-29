@@ -123,22 +123,7 @@ body {
   font-size: 1em;
   line-height: 1.4;
 }
-.navbar {
-  overflow: hidden;
-  background-color: lightgray
- /* ****** Colour of the background of the NavBar
- background-color: rgb(44, 172, 65);
-  */
- /* font-family: Arial, Helvetica, sans-serif; */
-}
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: purple;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -379,7 +364,143 @@ font-size: 25px;}
 
  
   /*color: #16a085; This was setting the colour on all H 08/08/23*/
-  
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    font-family: Nunito-Sans-Regular;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  h1 small,
+  h2 small,
+  h3 small,
+  h4 small,
+  h5 small,
+  h6 small,
+  .h1 small,
+  .h2 small,
+  .h3 small,
+  .h4 small,
+  .h5 small,
+  .h6 small,
+  h1 .small,
+  h2 .small,
+  h3 .small,
+  h4 .small,
+  h5 .small,
+  h6 .small,
+  .h1 .small,
+  .h2 .small,
+  .h3 .small,
+  .h4 .small,
+  .h5 .small,
+  .h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: #999;
+  }
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Nunito-Sans-Regular;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  h1 small,
+  .h1 small,
+  h2 small,
+  .h2 small,
+  h3 small,
+  .h3 small,
+  h1 .small,
+  .h1 .small,
+  h2 .small,
+  .h2 .small,
+  h3 .small,
+  .h3 .small {
+    font-size: 65%;
+  }
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h4 small,
+  .h4 small,
+  h5 small,
+  .h5 small,
+  h6 small,
+  .h6 small,
+  h4 .small,
+  .h4 .small,
+  h5 .small,
+  .h5 .small,
+  h6 .small,
+  .h6 .small {
+    font-size: 75%;
+  }
+  h1,
+  .h1 {
+    font-size: 36px;
+  }
+  h2,
+  .h2 {
+    font-size: 30px;
+  }
+  h3,
+  .h3 {
+    font-size: 24px;
+  }
+  h4,
+  .h4 {
+    font-size: 18px;
+  }
+  h5,
+  .h5 {
+    font-size: 14px;
+  }
+  h6,
+  .h6 {
+    font-size: 12px;
+  }
+  p {
+    margin: 0 0 10px; 
 
 h2,
 h3,
@@ -388,6 +509,7 @@ h5,
 h6 {
   font-family: "NunitoSans-Regular";
     font-weight: 700;
+    font-size: 30px;
   
   /*color: #16a085; This was setting the colour on all H 08/08/23*/
   }
@@ -399,7 +521,9 @@ p {
   line-height: 28px;
   margin-bottom: 25px;
 }
-
+.center-text
+{text-align: center;
+}
 
 .centered {
   text-align: center;
@@ -1347,8 +1471,6 @@ span.counter {
   }
 }
 
-
-
 /* Style the dropdown button */
 .dropdown {
   float: left;
@@ -1356,9 +1478,7 @@ span.counter {
 }
 
 /* Change background color on hover .dropbtn*/
-.navbar a:hover, .dropdown:hover {
-  background-color: red;
-}
+
 
 /* Display the dropdown content when hovering over the dropdown button */
 .dropdown:hover {
@@ -2390,10 +2510,8 @@ img.mfp-img {
 
 
 @media screen and (max-width: 800px) and (orientation: landscape),
-  screen and (max-height: 300px)
-  /**
-       * Remove all paddings around the image on small screen
-       */
+  screen and (max-height: 300px)}
+ 
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0;
