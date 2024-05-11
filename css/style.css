@@ -395,7 +395,7 @@ h6 {
 /* Paragraph & Typographic */
 
 p {
-  font-size: 25px
+  font-size: 25px;
   line-height: 28px;
   line-margin-bottom: 25px;
 }
@@ -691,7 +691,7 @@ a:after {
 
 .divider3 {
   /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg" width="500" height="900");
+  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg") width="500" height="900";
  
 }
 
@@ -2376,7 +2376,7 @@ img.mfp-img {
             animation: fadeDown 1s ease-in-out;
         }
 
-        @keyframes fadeDown
+        @keyframes fadeDown {
             from {
                 opacity: 0;
                 transform: translateY(-20px);
@@ -2387,26 +2387,27 @@ img.mfp-img {
             }
 
 
-@media screen and (max-width: 800px) and (orientation: landscape),
-  screen and (max-height: 300px)
+            @media screen and (max-width: 800px) and (orientation: landscape),
+            screen and (max-height: 300px) {
   /**
        * Remove all paddings around the image on small screen
        */
-  .mfp-img-mobile .mfp-image-holder {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .mfp-img-mobile img.mfp-img {
-    padding: 0;
-  }
-  .mfp-img-mobile .mfp-figure:after {
-    top: 0;
-    bottom: 0;
-  }
-  .mfp-img-mobile .mfp-figure small {
-    display: inline;
-    margin-left: 5px;
-  }
+       .mfp-img-mobile .mfp-image-holder {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .mfp-img-mobile img.mfp-img {
+        padding: 0;
+    }
+    .mfp-img-mobile .mfp-figure:after {
+        top: 0;
+        bottom: 0;
+    }
+    .mfp-img-mobile .mfp-figure small {
+        display: inline;
+        margin-left: 5px;
+    }
+}
   .mfp-img-mobile .mfp-bottom-bar {
     background: rgba(0, 0, 0, 0.6);
     bottom: 0;
