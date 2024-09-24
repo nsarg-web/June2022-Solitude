@@ -691,7 +691,7 @@ a:after {
 
 .divider3 {
   /*background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg");*/
-  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg" width="500" height="900");
+  background-image: url("Images/picture/jota/Jota_Antennas_Royal.jpg") width="500" height="900";
  
 }
 
@@ -2377,15 +2377,17 @@ img.mfp-img {
             animation: fadeDown 1s ease-in-out;
         }
 
-        @keyframes fadeDown
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        @keyframes fadeDown {
+          from {
+              opacity: 0;
+              transform: translateY(-20px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+      
 
 
 @media screen and (max-width: 800px) and (orientation: landscape),
@@ -2393,10 +2395,11 @@ img.mfp-img {
   /**
        * Remove all paddings around the image on small screen
        */
-  .mfp-img-mobile .mfp-image-holder {
-    padding-left: 0;
-    padding-right: 0;
-  }
+       .mfp-img-mobile .mfp-image-holder {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
   .mfp-img-mobile img.mfp-img {
     padding: 0;
   }
